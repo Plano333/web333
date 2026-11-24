@@ -79,7 +79,7 @@ h4.thin { font-weight: 400; }
 .overlay-navy[style*="--pad"] { --pad-md: 20px; }
 .row { margin: -10px; }
 .section > .row { margin: -10px; }
-.section.faq-grid > .row { margin-left: 0; margin-right: 0; }  /* FAQ: image and questions keep a 10px inset, as in the original */
+.section.faq-grid > .row { margin: 0; }  /* FAQ: image and questions keep a 10px inset, as in the original */
 .row.cards-row { margin-top: 0; }  /* Home cards: no top bleed, as in the original */
 /* rows of single cards: in the original these columns have no inset, only the 20px gap */
 .row:not(.cols-2):has(> .col > :is(.icon-box, .image-box):only-child, > .col > .image-box:first-child) { margin-left: 0; margin-right: 0; }
@@ -300,6 +300,7 @@ iframe.video::after { display: none; }
 
 /* tablet / mobile (Astra breakpoints, values measured from the original) */
 @media (max-width: 921px) {
+  .section[style*="--px-sm"] { padding-left: var(--px-sm); padding-right: var(--px-sm); }
   .step { font-size: 21.888px; line-height: 29.4px; }
   .section[style*="--pt-md"] { padding-top: var(--pt-md); }
   .section[style*="--mb-md"] { margin-bottom: var(--mb-md); }
@@ -324,7 +325,7 @@ iframe.video::after { display: none; }
   h2 { font-size: 35px; line-height: 1.3; }
   .section, .hero { padding-left: 20px; padding-right: 20px; }
   .section.faq-grid { padding-left: 0; padding-right: 0; }
-  .section.faq-grid > .row { margin-left: 0; margin-right: 0; gap: 0; }
+  .section.faq-grid > .row { margin: 0; gap: 0; }
   .banner { margin-top: -150px; padding: 200px 20px 50px; }
   .hero { min-height: 0; margin-top: -141px; }
   .push-right { margin-right: auto; }
@@ -370,7 +371,6 @@ iframe.video::after { display: none; }
   .cookie dt { grid-row: auto; }
   .cookie + .cookie dt { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
   .section[style*="--pt-sm"] { padding-top: var(--pt-sm); }
-  .section[style*="--px-sm"] { padding-left: var(--px-sm); padding-right: var(--px-sm); }
   .section[style*="--mb-sm"] { margin-bottom: var(--mb-sm); }
   .section[style*="--mt-sm"] { margin-top: var(--mt-sm); }
   .section[style*="--pb-sm"] { padding-bottom: var(--pb-sm); }
