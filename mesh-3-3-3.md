@@ -9,7 +9,7 @@ permalink: "/mesh-3-3-3/"
 
 <section class="section pt-9 pb-7" markdown="1">
 
-<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+<div class="stack" style="--pad: 0px 10px 10px 10px; --pad-sm: 0px 10px 10px" markdown="1">
 
 ## O Treino semanal chega às redes Meshtastic e MeshCore
 
@@ -19,7 +19,7 @@ A partir de 27 de Setembro de 2025, além do rádio (CB e PMR446), o treino pass
 
 Meshtastic e MeshCore são redes de mensagens de texto (tipo SMS) baseadas em **LoRa**, ideais para cenários *offgrid*, com grande alcance e baixo consumo, graças à comunicação **em malha (mesh)**.
 
-<div class="pt-6 pb-3" markdown="1">
+<div class="pt-8 pb-3" markdown="1">
 
 ## Quando e onde
 
@@ -29,7 +29,7 @@ Meshtastic e MeshCore são redes de mensagens de texto (tipo SMS) baseadas em **
 
 - **Canais:** Em cada rede será aberto **um canal próprio** dedicado ao treino 3‑3‑3.
 
-<div class="row" style="--gap: 30px" markdown="1">
+<div class="row" style="--gap: 30px; padding-top: 20px" markdown="1">
 
 <div class="col" markdown="1">
 

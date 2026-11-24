@@ -38,7 +38,7 @@ blockquote { margin: 1.5em; line-height: 1.5; padding: 20px; border-left: 5px so
 blockquote p { margin: 0 0 1.6em; }
 hr { border: 0; border-top: 1px solid rgba(0, 0, 0, .1); margin: 0; }
 .lead-title { font-size: 30px; line-height: 26.4px; font-weight: 700; margin-bottom: 48px; }
-.step { font-family: var(--font-head); font-weight: 600; font-size: 24px; line-height: 30px; color: var(--navy); }
+.step { font-family: var(--font-head); font-weight: 600; font-size: 24px; line-height: 30px; color: var(--navy); margin-bottom: 25.6px; }
 .thin { font-weight: 200; }
 h4.thin { font-weight: 400; }
 .center { text-align: center; }
@@ -296,7 +296,6 @@ iframe.video::after { display: none; }
 .consent-buttons .btn { flex: 1; padding: 12px; font-size: 13px; text-transform: none; border-radius: 6px; }
 .consent-links { display: flex; gap: 15px; justify-content: center; margin: 0; }
 .consent-links a { text-decoration: underline; }
-  [style*="--pad-md"] { padding: var(--pad-md); }
 
 /* tablet / mobile (Astra breakpoints, values measured from the original) */
 @media (max-width: 921px) {
@@ -333,6 +332,7 @@ iframe.video::after { display: none; }
   .section:has(> div > .cards-row) { padding-left: 40px; padding-right: 40px; }
   .section.bg-fixed-half { padding-left: 0; padding-right: 0; }  /* original: no side padding, cards are 60% of the full width */
   .row > .col[style*="--w-md"] { flex: 0 1 calc(var(--w-md) - var(--gap) / 2); }
+  [style*="--pad-md"] { padding: var(--pad-md); }
   .overlay-navy[style*="--pad"] { padding: var(--pad-md); }
   .row > .overlay-navy.push-right { width: 80%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 0 80px !important; }

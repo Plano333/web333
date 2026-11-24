@@ -9,7 +9,7 @@ permalink: "/radio-comunicacoes-cb-e-pmr-446-off-grid/"
 
 <section class="section pt-9 pb-4" markdown="1">
 
-<div class="stack" style="--pad: 0px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+<div class="stack" style="--pad: 0px 10px 10px 10px; --pad-sm: 0px 10px 10px" markdown="1">
 
 ## Treino semanal do Plano 3-3-3 em modo Off Grid
 
