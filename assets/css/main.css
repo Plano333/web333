@@ -54,6 +54,7 @@ h4.thin { font-weight: 400; }
 .c-black { color: #000; }
 .c-light { color: var(--bg); }
 
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus { left: 10px; top: 10px; z-index: 100; padding: 8px 16px; background: #fff; }
 
@@ -204,6 +205,13 @@ p > .btn { margin-right: 0; }
 .legal .h3-like { font: 600 18px/23.4px var(--font-head); color: var(--navy); }
 .legal summary small { margin-left: auto; padding-right: 10px; font-size: 14px; color: var(--text); }
 .legal summary::after { color: var(--text); }
+/* cookie entries: one Nome / Vencimento / Função header row on desktop, label beside value on phones (as in the original) */
+.cookie-table { display: grid; grid-template-columns: 2.6fr 1.65fr 2.95fr; grid-auto-flow: row dense; gap: 1px; background: #dadada; border: 1px solid #dadada; max-width: 800px; }
+.cookie { display: contents; }
+.cookie dt, .cookie dd { margin: 0; padding: 15px; background: #fff; }
+.cookie dd a { text-decoration: underline; }
+.cookie dt { grid-row: 1; background: #f7f7f7; font: 600 14px/1.65 var(--font-head); color: var(--navy); }
+.cookie + .cookie dt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 /* FAQ accordion */
 .accordion { border: 1px solid #d5d8dc; border-bottom: 0; }
@@ -319,6 +327,9 @@ iframe.video::after { display: none; }
   .row > .overlay-navy.push-right { width: 100%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 25px 50px !important; }
   .push-right + .push-right { margin-top: 10.5px; }
+  .cookie-table { grid-template-columns: 100px 1fr; grid-auto-flow: row; }
+  .cookie dt { grid-row: auto; }
+  .cookie + .cookie dt { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
   .section[style*="--pt-sm"] { padding-top: var(--pt-sm); }
   .section[style*="--pb-sm"] { padding-bottom: var(--pb-sm); }
   h1, .banner h1 { font-size: 35px; line-height: 1.4; }

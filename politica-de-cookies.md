@@ -62,9 +62,15 @@ Esses dados não são partilhados com terceiros.
 
 #### Estatísticas (anônimas)
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [elementor](https://cookiedatabase.org/cookie/elementor/elementor/){:target="_blank" rel="noopener"} | persistente | Armazenar ações realizadas no site |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[elementor](https://cookiedatabase.org/cookie/elementor/elementor/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">persistente</dd>
+<dt>Função</dt><dd markdown="span">Armazenar ações realizadas no site</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -81,12 +87,33 @@ Esses dados não são partilhados com terceiros.
 
 #### Funcional
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [wpEmojiSettingsSupports](https://cookiedatabase.org/cookie/wordpress/wpemojisettingssupports/){:target="_blank" rel="noopener"} | sessão | Armazenar detalhes de navegador |
-| [wp-settings-\*](https://cookiedatabase.org/cookie/wordpress/wp-settings/){:target="_blank" rel="noopener"} | persistente | Armazenar preferências de usuário |
-| [wp-settings-time-\*](https://cookiedatabase.org/cookie/wordpress/wp-settings-time/){:target="_blank" rel="noopener"} | 1 ano | Armazenar preferências de usuário |
-| [wordpress\_logged\_in\_\*](https://cookiedatabase.org/cookie/wordpress/wordpress_logged_in_/){:target="_blank" rel="noopener"} | persistente | Manter usuários logados |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[wpEmojiSettingsSupports](https://cookiedatabase.org/cookie/wordpress/wpemojisettingssupports/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">sessão</dd>
+<dt>Função</dt><dd markdown="span">Armazenar detalhes de navegador</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[wp-settings-\*](https://cookiedatabase.org/cookie/wordpress/wp-settings/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">persistente</dd>
+<dt>Função</dt><dd markdown="span">Armazenar preferências de usuário</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[wp-settings-time-\*](https://cookiedatabase.org/cookie/wordpress/wp-settings-time/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">1 ano</dd>
+<dt>Função</dt><dd markdown="span">Armazenar preferências de usuário</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[wordpress\_logged\_in\_\*](https://cookiedatabase.org/cookie/wordpress/wordpress_logged_in_/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">persistente</dd>
+<dt>Função</dt><dd markdown="span">Manter usuários logados</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -103,10 +130,21 @@ Para mais informações, leia a [Google Analytics Declaração de Privacidade](h
 
 #### Estatísticas
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [\_ga](https://cookiedatabase.org/cookie/google-analytics/_ga/){:target="_blank" rel="noopener"} | 2 anos | Rastreamento e contagem de visualizações de página |
-| [\_ga\_\*](https://cookiedatabase.org/cookie/google-analytics/_ga_/){:target="_blank" rel="noopener"} | 1 ano | Rastreamento e contagem de visualizações de página |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[\_ga](https://cookiedatabase.org/cookie/google-analytics/_ga/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">2 anos</dd>
+<dt>Função</dt><dd markdown="span">Rastreamento e contagem de visualizações de página</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[\_ga\_\*](https://cookiedatabase.org/cookie/google-analytics/_ga_/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">1 ano</dd>
+<dt>Função</dt><dd markdown="span">Rastreamento e contagem de visualizações de página</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -123,9 +161,15 @@ Para mais informações, leia a [Google Fonts Declaração de Privacidade](https
 
 #### Marketing
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [Google Fonts API](https://cookiedatabase.org/cookie/google-fonts/tcb_google_fonts/){:target="_blank" rel="noopener"} | expira imediatamente | Verificar endereço IP de usuário |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[Google Fonts API](https://cookiedatabase.org/cookie/google-fonts/tcb_google_fonts/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">expira imediatamente</dd>
+<dt>Função</dt><dd markdown="span">Verificar endereço IP de usuário</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -142,17 +186,39 @@ Para mais informações, leia a [Google reCAPTCHA Declaração de Privacidade](h
 
 #### Marketing
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [rc::c](https://cookiedatabase.org/cookie/google-recaptcha/rcc/){:target="_blank" rel="noopener"} | sessão | Filtrar solicitações de bots |
-| [rc::b](https://cookiedatabase.org/cookie/google-recaptcha/rcb/){:target="_blank" rel="noopener"} | sessão | Filtrar solicitações de bots |
-| [rc::a](https://cookiedatabase.org/cookie/google-recaptcha/rca/){:target="_blank" rel="noopener"} | persistente | Filtrar solicitações de bots |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[rc::c](https://cookiedatabase.org/cookie/google-recaptcha/rcc/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">sessão</dd>
+<dt>Função</dt><dd markdown="span">Filtrar solicitações de bots</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[rc::b](https://cookiedatabase.org/cookie/google-recaptcha/rcb/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">sessão</dd>
+<dt>Função</dt><dd markdown="span">Filtrar solicitações de bots</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[rc::a](https://cookiedatabase.org/cookie/google-recaptcha/rca/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">persistente</dd>
+<dt>Função</dt><dd markdown="span">Filtrar solicitações de bots</dd>
+</dl>
+
+</div>
 
 #### Funcional
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [\_grecaptcha](https://cookiedatabase.org/cookie/google-recaptcha/_grecaptcha/){:target="_blank" rel="noopener"} | 6 meses | Fornecer proteção contra spam |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[\_grecaptcha](https://cookiedatabase.org/cookie/google-recaptcha/_grecaptcha/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">6 meses</dd>
+<dt>Função</dt><dd markdown="span">Fornecer proteção contra spam</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -169,12 +235,33 @@ Para mais informações, leia a [YouTube Declaração de Privacidade](https://po
 
 #### Marketing
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [GPS](https://cookiedatabase.org/cookie/youtube/gps/){:target="_blank" rel="noopener"} | sessão | Armazenar dados de localização |
-| [VISITOR\_INFO1\_LIVE](https://cookiedatabase.org/cookie/youtube/visitor_info1_live/){:target="_blank" rel="noopener"} | 6 meses | Habilitar entrega de anúncios ou redirecionamento |
-| [YSC](https://cookiedatabase.org/cookie/youtube/ysc/){:target="_blank" rel="noopener"} | sessão | Armazenar e rastrear interação |
-| [PREF](https://cookiedatabase.org/cookie/youtube/pref/){:target="_blank" rel="noopener"} | 8 meses | Armazenar preferências de usuário |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[GPS](https://cookiedatabase.org/cookie/youtube/gps/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">sessão</dd>
+<dt>Função</dt><dd markdown="span">Armazenar dados de localização</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[VISITOR\_INFO1\_LIVE](https://cookiedatabase.org/cookie/youtube/visitor_info1_live/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">6 meses</dd>
+<dt>Função</dt><dd markdown="span">Habilitar entrega de anúncios ou redirecionamento</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[YSC](https://cookiedatabase.org/cookie/youtube/ysc/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">sessão</dd>
+<dt>Função</dt><dd markdown="span">Armazenar e rastrear interação</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[PREF](https://cookiedatabase.org/cookie/youtube/pref/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">8 meses</dd>
+<dt>Função</dt><dd markdown="span">Armazenar preferências de usuário</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -191,15 +278,51 @@ Esses dados não são partilhados com terceiros. Para mais informações, leia a
 
 #### Funcional
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| [cmplz\_functional](https://cookiedatabase.org/cookie/complianz/cmplz_functional/){:target="_blank" rel="noopener"} | 365 dias | Salvar preferências de consentimento de cookies |
-| [cmplz\_preferences](https://cookiedatabase.org/cookie/complianz/cmplz_preferences/){:target="_blank" rel="noopener"} | 365 dias | Salvar preferências de consentimento de cookies |
-| [cmplz\_marketing](https://cookiedatabase.org/cookie/complianz/cmplz_marketing/){:target="_blank" rel="noopener"} | 365 dias | Salvar preferências de consentimento de cookies |
-| [cmplz\_consented\_services](https://cookiedatabase.org/cookie/complianz/cmplz_consented_services/){:target="_blank" rel="noopener"} | 365 dias | Salvar preferências de consentimento de cookies |
-| [cmplz\_policy\_id](https://cookiedatabase.org/cookie/complianz/cmplz_policy_id/){:target="_blank" rel="noopener"} | 365 dias | Armazenar ID de política de cookies aceita |
-| [cmplz\_statistics](https://cookiedatabase.org/cookie/complianz/cmplz_statistics/){:target="_blank" rel="noopener"} | 365 dias | Salvar preferências de consentimento de cookies |
-| [cmplz\_banner-status](https://cookiedatabase.org/cookie/complianz/cmplz_banner-status/){:target="_blank" rel="noopener"} | 365 dias | Armazenar se o banner de cookies for recusado |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_functional](https://cookiedatabase.org/cookie/complianz/cmplz_functional/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Salvar preferências de consentimento de cookies</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_preferences](https://cookiedatabase.org/cookie/complianz/cmplz_preferences/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Salvar preferências de consentimento de cookies</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_marketing](https://cookiedatabase.org/cookie/complianz/cmplz_marketing/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Salvar preferências de consentimento de cookies</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_consented\_services](https://cookiedatabase.org/cookie/complianz/cmplz_consented_services/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Salvar preferências de consentimento de cookies</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_policy\_id](https://cookiedatabase.org/cookie/complianz/cmplz_policy_id/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Armazenar ID de política de cookies aceita</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_statistics](https://cookiedatabase.org/cookie/complianz/cmplz_statistics/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Salvar preferências de consentimento de cookies</dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">[cmplz\_banner-status](https://cookiedatabase.org/cookie/complianz/cmplz_banner-status/){:target="_blank" rel="noopener"}</dd>
+<dt>Vencimento</dt><dd markdown="span">365 dias</dd>
+<dt>Função</dt><dd markdown="span">Armazenar se o banner de cookies for recusado</dd>
+</dl>
+
+</div>
 
 </details>
 
@@ -214,20 +337,81 @@ A partilha de dados está pendente de investigação
 
 #### Finalidade pendente de investigação
 
-| Nome | Vencimento | Função |
-|---|---|---|
-| st-scroll-position |  |  |
-| gt-current-screen-plano333.webaa.net |  |  |
-| e\_library |  |  |
-| e\_event-tracker |  |  |
-| e\_kit-elements-defaults |  |  |
-| hfeSelectedItemId |  |  |
-| customizerVisitCount |  |  |
-| astPartialContentRendered |  |  |
-| lz\_math\_sess |  |  |
-| wordpress\_test\_cookie |  |  |
-| gt-current-screen-plano333.pt |  |  |
-| wp\_lang |  |  |
+<div class="cookie-table" markdown="1">
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">st-scroll-position</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">gt-current-screen-plano333.webaa.net</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">e\_library</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">e\_event-tracker</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">e\_kit-elements-defaults</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">hfeSelectedItemId</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">customizerVisitCount</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">astPartialContentRendered</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">lz\_math\_sess</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">wordpress\_test\_cookie</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">gt-current-screen-plano333.pt</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+<dl class="cookie">
+<dt>Nome</dt><dd markdown="span">wp\_lang</dd>
+<dt>Vencimento</dt><dd markdown="span"></dd>
+<dt>Função</dt><dd markdown="span"></dd>
+</dl>
+
+</div>
 
 </details>
 
