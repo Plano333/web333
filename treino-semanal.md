@@ -48,9 +48,9 @@ No caso de catástrofe generalizada ou emergência, as comunicações do Plano 3
 
 </div>
 
-<div class="col" style="--w: 35%" markdown="1">
+<div class="col" style="--w: 35%; --pad: 70px 0px 30px 0px" markdown="1">
 
-<div class="bg-pale" style="--pad: 10px 20px 10px 20px" markdown="1">
+<div class="bg-pale fill" style="--pad: 10px 20px 10px 20px" markdown="1">
 
 ## O Primeiro Treino
 
