@@ -205,7 +205,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 <div class="row" markdown="1">
 
-<div class="col" style="--w: 98%" markdown="1">
+<div class="col" style="--w: 98%; --w-md: 60%" markdown="1">
 
 ### Identificação geográfica
 
@@ -217,7 +217,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 </div>
 
-<div class="col" style="--w: 2%" markdown="1">
+<div class="col" style="--w: 2%; --w-md: 40%" markdown="1">
 
 {% include image.html src="/assets/images/livro-plano-3-3-3-300x171.webp" alt="" width=300 height=171 %}
 
@@ -229,7 +229,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 {% include spacer.html height=100 %}
 
-<section class="section bg-dark pt-8 pb-14" markdown="1">
+<section class="section bg-dark pt-8 pb-10" markdown="1">
 
 ## Videos
 {: .c-light}

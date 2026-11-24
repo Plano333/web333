@@ -63,8 +63,8 @@ h4.thin { font-weight: 400; }
 .section { padding-left: max(20px, calc((100% - 1200px) / 2)); padding-right: max(20px, calc((100% - 1200px) / 2)); }
 .section > :last-child, .col > :last-child, .row > .col > :last-child, [class*="bg-"] > :last-child, .section > [class^="pt-"] > :last-child { margin-bottom: 0; }
 /* Elementor-style 20px gap around block components, in sections and columns */
-:is(.section, .col) > * + :is(.img, .icon-box, .image-box, .btn, .buttons, .accordion, .video, .map, .divider, .stats, .social, .row, .push-right),
-:is(.section, .col) > :is(.img, .icon-box, .image-box, .video, .map, .divider, .stats, .accordion, .social) + * { margin-top: var(--gap); }
+:is(.section, .col) > * + :is(.img, .icon-box, .image-box, .btn, .buttons, .accordion, .video-wrap, .map, .divider, .stats, .social, .row, .push-right),
+:is(.section, .col) > :is(.img, .icon-box, .image-box, .video-wrap, .map, .divider, .stats, .accordion, .social) + * { margin-top: var(--gap); }
 .row { display: flex; gap: var(--gap); align-items: stretch; }
 .row > .col { flex: 1 1 0; min-width: 0; }
 .row > .col[style*="--w"] { flex: 0 1 calc(var(--w) - var(--gap) / 2); }
@@ -96,7 +96,7 @@ h4.thin { font-weight: 400; }
 
 /* section spacing utilities: pt-N / pb-N = N x 10px */
 .pt-1 { padding-top: 10px; } .pt-2 { padding-top: 20px; } .pt-3 { padding-top: 30px; } .pt-4 { padding-top: 40px; } .pt-5 { padding-top: 50px; } .pt-6 { padding-top: 60px; } .pt-8 { padding-top: 80px; } .pt-9 { padding-top: 90px; } .pt-10 { padding-top: 100px; }
-.pb-1 { padding-bottom: 10px; } .pb-2 { padding-bottom: 20px; } .pb-3 { padding-bottom: 30px; } .pb-4 { padding-bottom: 40px; } .pb-5 { padding-bottom: 50px; } .pb-6 { padding-bottom: 60px; } .pb-7 { padding-bottom: 70px; } .pb-8 { padding-bottom: 80px; } .pb-9 { padding-bottom: 90px; } .pb-10 { padding-bottom: 100px; } .pb-11 { padding-bottom: 110px; } .pb-14 { padding-bottom: 140px; } .pb-15 { padding-bottom: 150px; }
+.pb-1 { padding-bottom: 10px; } .pb-2 { padding-bottom: 20px; } .pb-3 { padding-bottom: 30px; } .pb-4 { padding-bottom: 40px; } .pb-5 { padding-bottom: 50px; } .pb-6 { padding-bottom: 60px; } .pb-7 { padding-bottom: 70px; } .pb-8 { padding-bottom: 80px; } .pb-9 { padding-bottom: 90px; } .pb-10 { padding-bottom: 100px; } .pb-11 { padding-bottom: 110px; } .pb-15 { padding-bottom: 150px; }
 
 /* header */
 .site-header { position: relative; z-index: 10; margin-bottom: -141px; border-bottom: 1px solid rgba(235, 235, 235, .24); }
@@ -224,7 +224,10 @@ p > .btn { margin-right: 0; }
 .accordion details > summary + * { border-top: 1px solid #d5d8dc; }
 
 /* video (click to load) and map */
-.video { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; padding: 0; cursor: pointer; background: #000 var(--thumb) center / cover; position: relative; }
+.video { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; padding: 0; cursor: pointer; background: #000 var(--thumb) center / cover; position: relative; border-radius: 3px; }
+.bg-dark .video { aspect-ratio: 4 / 3; background-size: contain; background-repeat: no-repeat; }  /* video gallery: same 4:3 boxes as the original */
+.bg-dark .row > .col:has(> .video-wrap) { padding: 0; }
+.bg-dark .row:has(> .col > .video-wrap) { margin: 0; }
 .video::after { content: ""; position: absolute; inset: 50% auto auto 50%; width: 68px; height: 48px; translate: -50% -50%; border-radius: 12px; background: #f00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M8 5v14l11-7z'/%3E%3C/svg%3E") center / 28px no-repeat; }
 iframe.video::after { display: none; }
 .map { width: 100%; height: 1400px; border: 0; display: block; }
@@ -300,6 +303,7 @@ iframe.video::after { display: none; }
   .banner { margin-top: -150px; padding: 200px 20px 50px; }
   .hero { min-height: 0; margin-top: -141px; }
   .push-right { margin-right: auto; }
+  .row > .col[style*="--w-md"] { flex: 0 1 calc(var(--w-md) - var(--gap) / 2); }
   .overlay-navy[style*="--pad"] { padding: var(--pad-md); }
   .row > .overlay-navy.push-right { width: 80%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 0 80px !important; }
