@@ -28,18 +28,22 @@ Um web beacon (ou pixel tag) é um pequeno texto ou imagem invisível num site q
 ## 5. Cookies
 
 5.1 Cookies técnicos ou funcionais
+{: .subtitle}
 
 Alguns cookies garantem que certas partes do site funcionam correctamente e que as suas preferências de utilizador permaneçam conhecidas. Ao adicionar cookies funcionais, facilitamos a visita ao nosso site. Dessa forma, não precisa inserir repetidamente as mesmas informações ao visitar o nosso site. Por exemplo, os itens permanecem no seu carrinho de compras até que tenha concluído a compra. Podemos adicionar esses cookies sem o seu consentimento.
 
 5.2 Cookies analíticos
+{: .subtitle}
 
 Usamos cookies analíticos para otimizar a experiência do site para nossos usuários. Com estes cookies analíticos, obtemos informações sobre o uso de nosso site. Pedimos sua permissão para inserir cookies analíticos.
 
 5.3 Cookies de marketing/rastreio
+{: .subtitle}
 
 Cookies de marketing/rastreio são cookies ou qualquer outra forma de armazenamento local, usados para criar perfis de utilizador para exibir publicidade ou para rastrear o utilizador neste site ou em vários sites para fins de marketing semelhantes.
 
 5.4 Rede social
+{: .subtitle}
 
 No nosso site, incluímos conteúdo para promover páginas da web (por exemplo, “gosto”, “pin”) ou partilhar (por exemplo, “twittar”) nas redes sociais. Este conteúdo é incorporado com código derivado de terceiros e coloca cookies. Esse conteúdo pode armazenar e processar determinadas informações para publicidade personalizada.
 
@@ -422,6 +426,7 @@ A partilha de dados está pendente de investigação
 Quando visitar o nosso site pela primeira vez, mostraremos uma janela com uma explicação sobre cookies. Assim que clicar em "Guardar preferências", autoriza-nos a usar as categorias de cookies e plugins selecionados na janela, conforme descrito nesta Política de Cookies. Pode desativar o uso de cookies através do seu navegador, mas observe que o nosso site pode não funcionar corretamente.
 
 7.1 Faça a gestão das suas configurações de consentimento
+{: .subtitle}
 
 ## 8. Ativação/desativação e exclusão de cookies
 
