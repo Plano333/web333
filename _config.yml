@@ -1,0 +1,3 @@
+title: Plano 3-3-3
+# Mirrored WordPress output: pass pages through untouched (no Liquid processing needed).
+exclude: [.claude, README.md]
