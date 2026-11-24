@@ -27,7 +27,7 @@ Explore as FAQs e descubra como pode integrar-se e contribuir para o sucesso do 
 
 <div class="col" markdown="1">
 
-{% include image.html src="/assets/images/faqs.webp" alt="faq" %}
+{% include image.html src="/assets/images/faqs.webp" alt="faq" width=1024 height=1024 %}
 
 </div>
 

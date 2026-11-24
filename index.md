@@ -76,7 +76,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 <div class="col" markdown="1">
 
 {% capture text %}Esteja preparado para situações críticas com o Plano 3-3-3, uma rede de comunicações alternativas, organizada, e que pode salvar vidas. <br/>Utilizando a Banda do Cidadão e o PMR 446, o plano cria uma rede de estações na sua região, permitindo contactar ou ser contactado em emergências para pedir ajuda ou simplesmente manter o contacto.{% endcapture %}
-{% include image-box.html src="/assets/images/para-que-serve-o-plano-333.webp" title="Para Que Serve" text=text %}
+{% include image-box.html src="/assets/images/para-que-serve-o-plano-333.webp" width=1100 height=629 title="Para Que Serve" text=text %}
 
 {% include button.html text="Saiba mais" url="/plano-3-3-3/" style="primary" %}
 
@@ -85,7 +85,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 <div class="col" markdown="1">
 
 {% capture text %}A cada sábado, às 21:00, operadores de rádio e pessoas como você, em todo o país reúnem-se para treinar e fortalecer a rede do Plano 3-3-3. Estes treinos ajudam a melhorar a sua comunicação, testar o equipamento e criar uma rede confiável para emergências. Não fique de fora! Faça parte desta comunidade e aprenda a comunicar com eficiência.{% endcapture %}
-{% include image-box.html src="/assets/images/pessoas-com-radios.webp" title="Como Participar no Treino" text=text %}
+{% include image-box.html src="/assets/images/pessoas-com-radios.webp" width=1280 height=731 title="Como Participar no Treino" text=text %}
 
 {% include button.html text="DEscubra como" url="/treino-semanal/" style="primary" %}
 
@@ -94,7 +94,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 <div class="col" markdown="1">
 
 {% capture text %}Quer melhorar o uso do seu rádio portátil? Desde escolher a melhor localização até evitar interferências, pequenos ajustes podem fazer toda a diferença. Leia as nossas dicas práticas para usar o seu rádio de forma eficiente, melhorar o alcance significativamente e garantir comunicações quando mais precisar.{% endcapture %}
-{% include image-box.html src="/assets/images/apontamentos-radio.webp" title="Como Usar Rádios Portáteis" text=text %}
+{% include image-box.html src="/assets/images/apontamentos-radio.webp" width=1280 height=731 title="Como Usar Rádios Portáteis" text=text %}
 
 {% include button.html text="Veja as nossas dicas" url="/dicas-para-usar-um-radio-portatil/" style="primary" %}
 
@@ -146,6 +146,8 @@ Sim. Se já tiver ganho alguma experiência durante os treinos do Plano 3-3-3, p
 
 </div>
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 <div class="row" markdown="1">
 
 <div class="col" markdown="1">
@@ -157,6 +159,8 @@ Sim. Se já tiver ganho alguma experiência durante os treinos do Plano 3-3-3, p
 <div class="col" markdown="1">
 
 {% include button.html text="Ver Biblioteca" url="/biblioteca/" style="primary" %}
+
+</div>
 
 </div>
 

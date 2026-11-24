@@ -26,7 +26,7 @@ O **Plano 3-3-3** é uma rotina de comunicações alternativas que funciona na *
 
 <div class="col" style="--w: 33%" markdown="1">
 
-{% include image.html src="/assets/images/Relogio-3-3-3-PS-300x284.png" alt="" %}
+{% include image.html src="/assets/images/Relogio-3-3-3-PS-300x284.png" alt="" width=300 height=284 %}
 
 </div>
 
@@ -96,6 +96,8 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 ## Plano 3-3-3 em ação
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 **Caso exista um alerta real,** uma emergência nacional, local ou mesmo uma só pessoa a pedir ajuda, ***deixa de ser um Treino e passa a Plano 3-3-3***,  aquilo para o qual treinou e deve estar preparado.
 
 <div class="relaxed justify" markdown="1">
@@ -110,6 +112,8 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
   “Alerta Local em Tomar, estrada M351 entre Carril e Serra, intransitável devido a incêndio. Rota alternativa pela M351-1 direção à Junceira ou M530 para Chão das Maias.”*
 - **Siga as instruções que escutar**, divulgadas por outras estações de confiança. Se possível, confirme-as pelas rádios comerciais e/ou televisão. Não se aproxime de zonas perigosas envolvidas na emergência, colocando-se em perigo ou dificultando o trabalho dos agentes oficiais, bombeiros, ambulâncias, polícia, etc.
 - Se tiver disponibilidade e energia,**fique à escuta mais tempo** e faça chamadas.
+
+</div>
 
 </div>
 
@@ -157,6 +161,8 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 ## Características do Plano 3-3-3
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 ### Alcance das comunicações
 
 O alcance depende principalmente da localização e eficiência da antena, mas também do modo de emissão AM ou USB no caso do CB.
@@ -167,6 +173,10 @@ O alcance depende principalmente da localização e eficiência da antena, mas t
 - Estações PMR 446 (na cidade) – 300 m a 1 Km
 - Estações PMR 446 (no cimo de um monte) – 1 Km a 10 Km
 
+</div>
+
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 ### O plano 3-3-3 para famílias ou grupos
 
 <div class="justify" markdown="1">
@@ -175,11 +185,17 @@ O conhecimento do plano 3-3-3 deve ser geral, abrangendo todos os membros da fam
 
 </div>
 
+</div>
+
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 ### Utilização de receptores SDR
 
 <div class="justify" markdown="1">
 
 Para acompanhar as comunicações fora do seu raio de alcance ou para escutar melhor estações com quem possa comunicar utilize  **SDR**s. É também uma forma de evitar interferências locais na receção, emitindo da sua estação mas recebendo pelo SDR.
+
+</div>
 
 </div>
 
@@ -203,7 +219,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 <div class="col" style="--w: 2%" markdown="1">
 
-{% include image.html src="/assets/images/livro-plano-3-3-3-300x171.webp" alt="" %}
+{% include image.html src="/assets/images/livro-plano-3-3-3-300x171.webp" alt="" width=300 height=171 %}
 
 </div>
 
@@ -217,6 +233,8 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 ## Videos
 {: .c-light}
+
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
 
 <div class="row" markdown="1">
 
@@ -241,6 +259,8 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 <div class="col" markdown="1">
 
 {% include youtube.html id="-HeKIBVb5VU" %}
+
+</div>
 
 </div>
 

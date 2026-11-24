@@ -9,7 +9,11 @@ permalink: "/radio-comunicacoes-cb-e-pmr-446-off-grid/"
 
 <section class="section pt-9 pb-4" markdown="1">
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 ## Treino semanal do Plano 3-3-3 em modo Off Grid
+
+</div>
 
 **E se faltar a eletricidade?** Vai conseguir comunicar? Se for em portátil, como o PMR 446 sim, ou se estiver com um CB em móvel, no carro, mas e em base? As estações de CB de base são as que têm maior alcance e ajudam a passar as mensagens entre outras estações mais fracas. É muito importante que estas estações existam. e estejam operacionais. <img class="alignleft" src="/assets/images/DALL·E-2025-02-12-23.22.26-A-dramatic-scene-inside-a-radio-communications-room-during-a-power-outage-300x300.webp" alt="" width="350" height="350" style="margin-top:10px; margin-bottom:10px;"> Assim, e por proposta da estação, Xaral de Porto de Mós, inicia-se agora um treino diferente, o **Treino Off Grid.** Este treino é em tudo idêntico ao já conhecido Treino Semanal do Plano 3-3-3, mas em que as estações que operem no modo Off Grid assinalam a sua presença adicionando o sufixo /O a seguir ao seu indicativo ou nome de estação. Desta forma, a estação Xaral será Xaral /O e a minha, Mike 05 /O. É tão simples como isto, adicional  /O no final. É também possível utilizar outras variantes mais extensas como /Oscar, /Offgrid ou simplesmente dizer Off Grid. **Para ser considerada Off Grid** uma estação não pode ser alimentada pela energia da rede, **terá de operar a partir de uma bateria por exemplo**. Os portáteis já são por natureza considerados Off Grid e as estações em móvel também. No entanto, no Treino Semanal do Plano 3-3-3, e porque nos preparamos para operar em condições extremas, sugiro que considerem que além da falta de energia elétrica, também os meios de comunicação usuais, telefone e Internet tenham falhado. Nenhuma comunicação deve ser feita com exceção da informação de QRK. Até mesmo a luz da divisão da casa onde se encontrem deve ser independente da rede, por exemplo lanterna, *power bank* ou iluminação a 12V. Recomenda-se que o registo seja feito em papel evitando-se o computador, a não ser que este seja também alimentado por uma fonte de energia alternativa. São consideradas Off Grid os seguintes tipos de estação:
 

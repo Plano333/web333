@@ -42,13 +42,13 @@ Miguel Santos – CB: **Mike 05**, Radioamador: **CT1DYT**
 
 <div class="col" style="--w: 11%" markdown="1">
 
-{% include image.html src="/assets/images/logo-antigo-300x300.webp" alt="Logo Plano 3-3-3" %}
+{% include image.html src="/assets/images/logo-antigo-300x300.webp" alt="Logo Plano 3-3-3" width=300 height=300 %}
 
-{% include image.html src="/assets/images/macanudos-300x300.webp" alt="Macanudos" %}
+{% include image.html src="/assets/images/macanudos-300x300.webp" alt="Macanudos" width=300 height=300 %}
 
-{% include image.html src="/assets/images/crono-333.webp" alt="logo plano 333" %}
+{% include image.html src="/assets/images/crono-333.webp" alt="logo plano 333" width=318 height=324 %}
 
-{% include image.html src="/assets/images/flyer-plano-333.webp" alt="flyer plano 333" %}
+{% include image.html src="/assets/images/flyer-plano-333.webp" alt="flyer plano 333" width=530 height=751 %}
 
 </div>
 
@@ -68,7 +68,7 @@ Miguel Santos – CB: **Mike 05**, Radioamador: **CT1DYT**
 
 </div>
 
-{% include image.html src="/assets/images/encontro-1.webp" alt="1º Encontro Nacional Prepper" %}
+{% include image.html src="/assets/images/encontro-1.webp" alt="1º Encontro Nacional Prepper" width=1420 height=741 %}
 
 <div class="justify" markdown="1">
 
@@ -122,7 +122,7 @@ O objetivo foi cumprido cabendo a cada um participar e desenvolver o Plano 3-3-3
 
 <div class="col" style="--w: 25%" markdown="1">
 
-{% include image.html src="/assets/images/congresso.webp" alt="Congresso Internacional de Sobrevivêncialismo" %}
+{% include image.html src="/assets/images/congresso.webp" alt="Congresso Internacional de Sobrevivêncialismo" width=833 height=463 %}
 
 </div>
 
@@ -154,6 +154,8 @@ O vídeo está disponível no  canal do YouTube de [Mike 05 o Macanudp Prepper](
 
 ## Revista Prontidão e Sobrevivência
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 <div class="row" markdown="1">
 
 <div class="col" style="--w: 71%" markdown="1">
@@ -174,7 +176,9 @@ A escolha do Plano 3-3-3 como método de comunicação alternativo foi para nós
 
 <div class="col" style="--w: 29%" markdown="1">
 
-{% include image.html src="/assets/images/revista-prontidao-e-sobrevivencia.webp" alt="Revista Prontidão e Sobrevivência" %}
+{% include image.html src="/assets/images/revista-prontidao-e-sobrevivencia.webp" alt="Revista Prontidão e Sobrevivência" width=702 height=969 %}
+
+</div>
 
 </div>
 

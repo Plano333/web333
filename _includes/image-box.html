@@ -1,6 +1,6 @@
-{%- comment -%}Card with image on top, then title and text. src, title, text (HTML).{%- endcomment -%}
+{%- comment -%}Card with image on top, then title and text. src, width, height, title, text (HTML).{%- endcomment -%}
 <div class="image-box">
-  <img src="{{ include.src }}" alt="" loading="lazy">
+  <img src="{{ include.src }}" alt=""{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy">
   <h3>{{ include.title }}</h3>
   <p class="image-box-text">{{ include.text }}</p>
 </div>

@@ -70,6 +70,8 @@ h4.thin { font-weight: 400; }
 .row.cols-2 > .col { flex: 1 1 calc(50% - var(--gap)); }
 .col { padding: 10px; }
 [style*="--pad"] { padding: var(--pad); }
+.stack > * + * { margin-top: var(--gap); }
+.stack > p:last-child, .stack > div:last-child > :last-child { margin-bottom: 0; }
 .overlay-navy[style*="--pad"] { --pad-md: 20px; }
 .row { margin: -10px; }
 .section > .row { margin: -10px; }
@@ -304,6 +306,7 @@ iframe.video::after { display: none; }
 }
 
 @media (max-width: 544px) {
+  .banner-empty { height: 150px; padding: 0; }
   .push-right { width: auto; }
   .row > .overlay-navy.push-right { width: 100%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 25px 50px !important; }

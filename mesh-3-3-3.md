@@ -9,7 +9,11 @@ permalink: "/mesh-3-3-3/"
 
 <section class="section pt-9 pb-7" markdown="1">
 
+<div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
+
 ## O Treino semanal chega às redes Meshtastic e MeshCore
+
+</div>
 
 A partir de 27 de Setembro de 2025, além do rádio (CB e PMR446), o treino passa também a decorrer nas redes **Meshtastic** e **MeshCore**, em simultâneo, **todos os sábados às 21:00**.
 
@@ -44,7 +48,7 @@ Na opção MQTT:
 
 Veja as instruções [aqui](#instrucoes).
 
-{% include image.html src="/assets/images/Canal_Meshtastic-rca1yk2nlrw1mhkqbnrnfstgtifcfp6xu0lh2uvnr4.webp" alt="Canal_Meshtastic" %}
+{% include image.html src="/assets/images/Canal_Meshtastic-rca1yk2nlrw1mhkqbnrnfstgtifcfp6xu0lh2uvnr4.webp" alt="Canal_Meshtastic" width=325 height=500 %}
 
 </div>
 
@@ -63,7 +67,7 @@ Uma vez que o MeshCore nunca utiliza a internet e toda a comunicação é feita 
 
 Veja as instruções [aqui](#instrucoes).
 
-{% include image.html src="/assets/images/Canal_Meshcore-rca1ylybzfym9pi00okwksce0a62v3eei9wg1esveo.webp" alt="Canal_Meshcore" %}
+{% include image.html src="/assets/images/Canal_Meshcore-rca1ylybzfym9pi00okwksce0a62v3eei9wg1esveo.webp" alt="Canal_Meshcore" width=282 height=500 %}
 
 </div>
 
