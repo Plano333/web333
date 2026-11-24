@@ -138,7 +138,7 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 </div>
 
-<div class="bg-pale bordered" style="--pad: 0px 30px 0px 30px" markdown="1">
+<div class="bg-pale bordered" style="--pad: 30px 30px 10px 30px; --pad-sm: 0px 30px" markdown="1">
 
 ### Não esquecer
 {: .c-primary}
