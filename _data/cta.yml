@@ -1,0 +1,92 @@
+# Promo cards shown in pairs at the bottom of pages (front matter `cta: [key, key]`).
+# theme: yellow (navy button) or navy (yellow button); image is the card background.
+# Several pages use slightly different wording, so each wording has its own key.
+
+plano:
+  theme: yellow
+  image: /assets/images/radios.webp
+  kicker: Rede de comunicações para emergências
+  title: Conheça o Plano 3-3-3
+  text: |
+    O Plano 3-3-3 é a solução simples e eficaz para se manter conectado em situações de emergência. Saiba como funciona, como participar e por que é uma ferramenta essencial para a sua segurança e a da sua comunidade.
+
+    **Descubra tudo sobre o Plano 3-3-3 e como pode começar hoje!**
+  button: { text: Saiba mais, url: /plano-3-3-3/ }
+
+plano-ligado:
+  theme: yellow
+  image: /assets/images/radios.webp
+  kicker: Rede de comunicações alternativas
+  title: Conheça o Plano 3-3-3
+  text: |
+    O Plano 3-3-3 é a solução simples e eficaz para se manter ligado em situações de emergência. Saiba como funciona, como participar e por que é uma ferramenta essencial para a sua segurança e a da sua comunidade.
+
+    **Descubra tudo sobre o Plano 3-3-3 e como pode começar hoje!**
+  button: { text: Saiba mais, url: /plano-3-3-3/ }
+
+plano-dicas:
+  theme: yellow
+  image: /assets/images/radios.webp
+  kicker: Rede de comunicações alternativas
+  title: Conheça o Plano 3-3-3
+  justify: false
+  text: |
+    O Plano 3-3-3 é uma solução simples e eficaz para se manter ligado em situações de emergência. Saiba como funciona, como participar e por que pode ser uma ferramenta essencial para a sua segurança e a da sua comunidade.
+
+    **Descubra tudo sobre o Plano 3-3-3 e como pode começar hoje!**
+  button: { text: Saiba mais, url: /plano-3-3-3/ }
+
+treino:
+  theme: navy
+  image: /assets/images/radio-cb-2.webp
+  kicker: Saiba comunicar em qualquer emergência
+  title: Participe no Treino do Plano 3-3-3
+  text: |
+    Treinar é essencial para garantir que você e sua comunidade estão prontos para agir em situações críticas. O treino semanal do Plano 3-3-3 ajuda a melhorar suas habilidades de comunicação via rádio e a criar uma rede sólida de contactos na sua região.
+
+    **Junte-se a nós todos os sábados às 21:00** e fortaleça sua capacidade de ajudar e ser ajudado!
+  button: { text: Veja como participar, url: /treino-semanal/ }
+
+treino-plano:
+  theme: navy
+  image: /assets/images/radio-cb-2.webp
+  kicker: Saiba comunicar em qualquer emergência
+  title: Participe no Treino do Plano 3-3-3
+  text: |
+    Treinar é essencial para garantir que você e a sua comunidade estão prontos para agir em situações críticas. O treino semanal do Plano 3-3-3 ajuda-o a melhorar as suas capacidades de comunicação via rádio e a criar uma rede de contactos na sua região.
+
+    **Junte-se a nós todos os sábados às 21:00** e fortaleça a sua capacidade de ajudar e ser ajudado!
+  button: { text: Veja como participar, url: /treino-semanal/ }
+
+treino-dicas:
+  theme: navy
+  image: /assets/images/radio-cb-2.webp
+  kicker: Saiba comunicar em caso de emergência
+  title: Participe no Treino do Plano 3-3-3
+  text: |
+    Treinar é essencial para garantir que você e sua comunidade estão prontos para agir em situações críticas. O treino semanal do Plano 3-3-3 ajuda a melhorar as suas capacidades de comunicação via rádio e a criar uma rede sólida de contactos na sua região.
+
+    **Junte-se a nós todos os sábados às 21:00** no CB ou no PMR 446 e fortaleça a sua capacidade de ajudar e ser ajudado!
+  button: { text: Veja como participar, url: /treino-semanal/ }
+
+dicas:
+  theme: yellow
+  image: /assets/images/radios.webp
+  title: Melhore as suas comunicações com as nossas Dicas
+  small_title: true
+  text: |
+    Desde escolher a melhor localização para operar até maximizar o alcance do seu rádio, as nossas dicas práticas fazem toda a diferença. Aprenda técnicas simples que ajudam a otimizar as suas comunicações e evite os erros mais comuns.
+
+    **Descubra agora como melhorar a sua experiência no Plano 3-3-3**
+  button: { text: Veja as nossas dicas, url: /dicas-para-usar-um-radio-portatil/ }
+
+dicas-lower:
+  theme: yellow
+  image: /assets/images/radios.webp
+  title: Melhore as suas comunicações com as nossas dicas
+  small_title: true
+  text: |
+    Desde escolher a melhor localização para operar até maximizar o alcance do seu rádio, as nossas dicas práticas fazem toda a diferença. Aprenda técnicas simples que ajudam a otimizar as suas comunicações e evite os erros mais comuns.
+
+    **Descubra agora como melhorar a sua experiência no Plano 3-3-3**
+  button: { text: Veja as nossas dicas, url: /dicas-para-usar-um-radio-portatil/ }

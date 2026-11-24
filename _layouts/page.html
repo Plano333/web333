@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% unless page.hide_title %}{% assign banner_title = page.title %}{% else %}{% assign banner_title = nil %}{% endunless %}
+{% include banner.html title=banner_title image=page.banner %}
+{{ content }}
+{%- if page.cta %}
+{% include cta.html items=page.cta gap=page.cta_gap %}
+{%- endif %}

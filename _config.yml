@@ -1,3 +1,17 @@
 title: Plano 3-3-3
-# Mirrored WordPress output: pass pages through untouched (no Liquid processing needed).
-exclude: [.claude, README.md]
+description: O Plano 3-3-3 é uma rede de comunicações alternativas, via rádio, que liga pessoas em caso de emergência, promovendo o apoio local.
+url: https://teste.plano333.pt
+lang: pt-PT
+locale: pt_PT
+ga_id: G-PV5EZG98FS
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: page }
+
+exclude: [README.md, docs, .claude]

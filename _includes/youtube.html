@@ -1,0 +1,4 @@
+{%- comment -%}
+YouTube video. id. Shows the thumbnail; the player (and any YouTube request) loads only on click.
+{%- endcomment -%}
+<button type="button" class="video" data-yt="{{ include.id }}" aria-label="Reproduzir vídeo" style="--thumb: url(https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg)"></button>

@@ -1,0 +1,19 @@
+{%- comment -%}Pair of promo cards. items: list of keys from _data/cta.yml. gap: add space above.{%- endcomment -%}
+<section class="cta{% if include.gap %} cta-gap{% endif %}">
+  {%- for key in include.items %}
+  {%- assign c = site.data.cta[key] %}
+  <div class="cta-card cta-{{ c.theme }}" style="--bg: url({{ c.image }})">
+    <div class="cta-inner">
+      {%- if c.kicker %}<p class="kicker">{{ c.kicker }}</p>{% endif %}
+      {%- if c.small_title %}
+      <h3>{{ c.title }}</h3>
+      {%- else %}
+      <h2>{{ c.title }}</h2>
+      {%- endif %}
+      <div{% unless c.justify == false %} class="justify"{% endunless %}>{{ c.text | markdownify }}</div>
+      {%- if c.theme == "yellow" %}{% assign btn = "navy" %}{% else %}{% assign btn = "primary" %}{% endif %}
+      {% include button.html text=c.button.text url=c.button.url style=btn %}
+    </div>
+  </div>
+  {%- endfor %}
+</section>

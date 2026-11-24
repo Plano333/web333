@@ -1,0 +1,15 @@
+{%- comment -%}
+Card with icon, title and text.
+  icon        name in icon.html (omit for a plain stat card: big number + label)
+  title, text (HTML)
+  color       title colour: navy (default) | primary | yellow | gold | pale | white
+  icon_color  icon colour, same names
+  style       box: filled (blue) | card (white, blue border, shadow) | outline (blue border) | navy (navy, shadow)
+{%- endcomment -%}
+<div class="icon-box{% if include.style %} box-{{ include.style }}{% endif %}{% unless include.icon %} stat{% endunless %}">
+  {%- if include.icon %}<div class="icon-box-icon{% if include.icon_color %} c-{{ include.icon_color }}{% endif %}">{% include icon.html name=include.icon %}</div>{% endif %}
+  <h3{% if include.color %} class="c-{{ include.color }}"{% endif %}>{{ include.title }}</h3>
+  {%- if include.text and include.text != "" %}
+  <p class="icon-box-text">{{ include.text }}</p>
+  {%- endif %}
+</div>

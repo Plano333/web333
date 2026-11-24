@@ -1,0 +1,6 @@
+{%- comment -%}Card with image on top, then title and text. src, title, text (HTML).{%- endcomment -%}
+<div class="image-box">
+  <img src="{{ include.src }}" alt="" loading="lazy">
+  <h3>{{ include.title }}</h3>
+  <p class="image-box-text">{{ include.text }}</p>
+</div>

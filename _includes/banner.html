@@ -1,0 +1,4 @@
+{%- comment -%}Page title banner: background image under a navy overlay. title (omit for an image-only strip), image.{%- endcomment -%}
+<section class="banner{% unless include.title %} banner-empty{% endunless %}" style="--bg: url({{ include.image | default: '/assets/images/radio-cb.webp' }})">
+  {%- if include.title %}<h1>{{ include.title }}</h1>{% endif %}
+</section>

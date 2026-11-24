@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="container header-bar">
+    <a class="logo" href="/" rel="home"><img src="/assets/images/cropped-logo-plano-333-amarelo-120x53.png" srcset="/assets/images/cropped-logo-plano-333-amarelo.png 2x" sizes="120px" width="120" height="53" alt="Plano 3-3-3"></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+    <label for="nav-toggle" class="nav-button" aria-hidden="true"><span></span></label>
+    <nav class="nav" aria-label="Menu principal">
+      <ul>
+        {%- for item in site.data.site.menu %}
+        <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    {% include social.html class="header-social" %}
+  </div>
+</header>

@@ -1,0 +1,8 @@
+{%- comment -%}
+Grid of key numbers. items: list of { value, label } (e.g. from page front matter).
+{%- endcomment -%}
+<div class="stats">
+  {%- for s in include.items %}
+  <div class="stat"><p class="stat-value">{{ s.value }}</p><p class="stat-label">{{ s.label }}</p></div>
+  {%- endfor %}
+</div>

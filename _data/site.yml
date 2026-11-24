@@ -1,0 +1,31 @@
+# Header menu, in display order.
+menu:
+  - { title: Início, url: / }
+  - { title: Plano 3-3-3, url: /plano-3-3-3/ }
+  - { title: Treino Semanal, url: /treino-semanal/ }
+  - { title: Dicas, url: /dicas-para-usar-um-radio-portatil/ }
+  - { title: História, url: /historia/ }
+  - { title: Off Grid, url: /radio-comunicacoes-cb-e-pmr-446-off-grid/ }
+  - { title: Mapa 3-3-3, url: /mapa-plano-3-3-3/ }
+  - { title: Mesh 3-3-3, url: /mesh-3-3-3/ }
+
+# Footer link columns.
+footer:
+  - title: Páginas
+    links:
+      - { title: Início, url: / }
+      - { title: Plano 3-3-3, url: /plano-3-3-3/ }
+      - { title: Treino Semanal, url: /treino-semanal/ }
+      - { title: Dicas, url: /dicas-para-usar-um-radio-portatil/ }
+      - { title: História, url: /historia/ }
+  - title: Outros Links
+    links:
+      - { title: Biblioteca, url: /biblioteca/ }
+      - { title: FAQ, url: /faq/ }
+      - { title: Política de Privacidade, url: /politica-de-privacidade/ }
+      - { title: Política de Cookies, url: /politica-de-cookies/ }
+      - { title: Contactos, url: /contactos/ }
+
+social:
+  - { name: Facebook, icon: facebook, url: "https://www.facebook.com/61571508873672" }
+  - { name: YouTube, icon: youtube, url: "https://www.youtube.com/playlist?list=PLkxRrxBLBVAW6tzyGJMIO2CTqtXsA6Hhj" }

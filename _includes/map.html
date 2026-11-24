@@ -1,0 +1,2 @@
+{%- comment -%}Embedded map (iframe). src, title, pad (vertical space above and below, px).{%- endcomment -%}
+<iframe class="map" src="{{ include.src }}" title="{{ include.title | default: 'Mapa' }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen{% if include.pad %} style="margin-block: {{ include.pad }}px"{% endif %}></iframe>

@@ -1,0 +1,50 @@
+{%- comment -%}
+Cookie consent banner. Google Analytics loads only after "Aceitar"; the choice is kept in localStorage.
+Also wires the click-to-load YouTube component.
+{%- endcomment -%}
+<div class="consent" id="consent" role="dialog" aria-labelledby="consent-title" hidden>
+  <p class="consent-title" id="consent-title">Gerir o Consentimento</p>
+  <p>Para fornecer as melhores experiências, usamos tecnologias como cookies para armazenar e/ou aceder a informações do dispositivo. Consentir com essas tecnologias nos permitirá processar dados, como comportamento de navegação ou IDs exclusivos neste site. Não consentir ou retirar o consentimento pode afetar negativamante certos recursos e funções.</p>
+  <div class="consent-buttons">
+    <button type="button" class="btn btn-navy-white" data-consent="yes">Aceitar</button>
+    <button type="button" class="btn btn-outline-dark" data-consent="no">Negar</button>
+  </div>
+  <p class="consent-links"><a href="/politica-de-cookies/">Política de Cookies</a> <a href="/politica-de-privacidade/">Política de Privacidade</a></p>
+</div>
+<script>
+(function () {
+  var KEY = 'consent', box = document.getElementById('consent');
+  function analytics() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga_id }}');
+  }
+  var choice = null;
+  try { choice = localStorage.getItem(KEY); } catch (e) {}
+  if (choice === 'yes') analytics();
+  else if (choice !== 'no') box.hidden = false;
+  box.addEventListener('click', function (e) {
+    var v = e.target.getAttribute('data-consent');
+    if (!v) return;
+    try { localStorage.setItem(KEY, v); } catch (e) {}
+    box.hidden = true;
+    if (v === 'yes') analytics();
+  });
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-yt]');
+    if (!b) return;
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + b.getAttribute('data-yt') + '?autoplay=1';
+    f.allow = 'autoplay; encrypted-media; picture-in-picture';
+    f.allowFullscreen = true;
+    f.title = 'YouTube';
+    f.className = 'video';
+    b.replaceWith(f);
+  });
+})();
+</script>
