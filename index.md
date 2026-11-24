@@ -116,7 +116,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 </div>
 
-<div class="col" style="--pad: 30px 0px 40px 100px; --pad-sm: 50px 25px" markdown="1">
+<div class="col" style="--pad: 30px 0px 40px 100px; --pad-md: 30px 40px 40px 40px; --pad-sm: 50px 25px" markdown="1">
 
 ## Perguntas Frequentes
 

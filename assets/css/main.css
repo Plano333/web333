@@ -238,7 +238,10 @@ p > .btn { margin-right: 0; }
 .accordion summary::-webkit-details-marker { display: none; }
 .accordion summary::after { content: "+"; font-size: 20px; line-height: 16px; color: var(--navy); }
 .accordion details[open] summary::after { content: "−"; }
-.accordion details > :not(summary) { margin: 0; padding: 15px 20px; text-align: justify; }
+.accordion details > :not(summary) { margin: 0 0 25.6px; padding: 0 20px; text-align: justify; }  /* Elementor: one padded box, paragraphs keep their margin */
+.accordion details > summary + * { padding-top: 15px; }
+.accordion details > :last-child { padding-bottom: 15px; }
+.faq-grid .accordion { margin-top: 20px; }
 .accordion details > summary + * { border-top: 1px solid #d5d8dc; }
 
 /* video (click to load) and map */
@@ -293,6 +296,7 @@ iframe.video::after { display: none; }
 .consent-buttons .btn { flex: 1; padding: 12px; font-size: 13px; text-transform: none; border-radius: 6px; }
 .consent-links { display: flex; gap: 15px; justify-content: center; margin: 0; }
 .consent-links a { text-decoration: underline; }
+  [style*="--pad-md"] { padding: var(--pad-md); }
 
 /* tablet / mobile (Astra breakpoints, values measured from the original) */
 @media (max-width: 921px) {
@@ -350,6 +354,9 @@ iframe.video::after { display: none; }
 }
 
 @media (max-width: 544px) {
+  .accordion details > :not(summary) { padding-left: 15px; padding-right: 15px; }
+  .accordion details > summary + * { padding-top: 7px; }
+  .accordion details > :last-child { padding-bottom: 7px; }
   .section.rows-inset .row { margin-left: 0; margin-right: 0; }
   .banner-empty { height: 150px; padding: 0; }
   .push-right { width: auto; }
