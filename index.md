@@ -69,9 +69,9 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 <section class="section bg-white pt-10 pb-10" style="--pt-md: 80px; --pb-md: 90px; --pt-sm: 50px; --pb-sm: 80px" markdown="1">
 
-<div markdown="1">
+<div class="pt-5" markdown="1">
 
-<div class="row stack-md" markdown="1">
+<div class="row stack-md cards-row" markdown="1">
 
 <div class="col" markdown="1">
 
