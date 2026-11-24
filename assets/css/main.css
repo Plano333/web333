@@ -32,7 +32,7 @@ h1 { font-size: 90px; line-height: 1.4; color: #fff; }
 h2 { font-size: 40px; color: var(--primary); }
 h3 { font-size: 24px; color: var(--navy); }
 h4 { font-size: 24px; color: var(--primary); line-height: 1.2; }
-h2.sm { font-size: 30px; font-weight: 300; }
+h2.sm { font-size: 30px; font-weight: 300; font-family: "Roboto", sans-serif; }  /* Dicas cards: Elementor global font in the original */
 h5 { font-size: 20px; color: var(--navy); line-height: 1.2; }
 blockquote { margin: 26px; padding: 20px; border-left: 5px solid rgba(0, 0, 0, .05); color: #4b4f58; font-size: 17.6px; font-style: italic; }
 blockquote p { margin: 0; }
@@ -84,6 +84,8 @@ h4.thin { font-weight: 400; }
 .bg-yellow { background: var(--yellow); }
 .bg-dark { background: #222; }
 .bg-image { position: relative; background: var(--bg) center / cover no-repeat; background-image: var(--bg); }
+.bg-fixed-half { background-size: 50% auto; background-position: 0 0; background-attachment: fixed; isolation: isolate; }  /* Dicas: photo pinned to the left half, light navy tint */
+.bg-fixed-half::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--navy); opacity: .2; }
 .shadow { box-shadow: 0 0 10px rgba(0, 0, 0, .5); }
 .push-right { width: var(--w); margin-left: auto; }
 .push-right + .push-right { margin-top: 56px; }
@@ -162,7 +164,7 @@ p > .btn { margin-right: 0; }
 /* cards */
 .icon-box { text-align: center; }
 .icon-box-icon { font-size: 50px; line-height: 1; margin-bottom: 15px; }
-.label { margin: 0; font-weight: 500; }
+.label { margin: 0; font: 500 16px/19px "Roboto", sans-serif; text-transform: uppercase; }
 .icon-box h3 { margin-bottom: 15px; }
 .icon-box-text, .image-box-text { margin: 0; }
 .icon-box.stat { text-align: left; }
@@ -307,11 +309,12 @@ iframe.video::after { display: none; }
   .banner { margin-top: -150px; padding: 200px 20px 50px; }
   .hero { min-height: 0; margin-top: -141px; }
   .push-right { margin-right: auto; }
+  .section.bg-fixed-half { padding-left: 0; padding-right: 0; }  /* original: no side padding, cards are 60% of the full width */
   .row > .col[style*="--w-md"] { flex: 0 1 calc(var(--w-md) - var(--gap) / 2); }
   .overlay-navy[style*="--pad"] { padding: var(--pad-md); }
   .row > .overlay-navy.push-right { width: 80%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 0 80px !important; }
-  .push-right + .push-right { margin-top: 24px; }
+  .push-right + .push-right { margin-top: 44px; }  /* 24px margin + 20px container gap */
   .section.stats-band { padding: 0; }
   .section.stats-band > .row.pull-up { margin: -100px 0 0; }
   .section.stats-band > .row.pull-up > .col { padding: 0; }
@@ -332,9 +335,10 @@ iframe.video::after { display: none; }
   .section.rows-inset .row { margin-left: 0; margin-right: 0; }
   .banner-empty { height: 150px; padding: 0; }
   .push-right { width: auto; }
+  .section.bg-fixed-half { padding-left: 20px; padding-right: 20px; }
   .row > .overlay-navy.push-right { width: 100%; }
   .section:has(> .row > .overlay-navy.push-right) { padding: 0 25px 50px !important; }
-  .push-right + .push-right { margin-top: 10.5px; }
+  .push-right + .push-right { margin-top: 30.5px; }  /* 10.5px margin + 20px container gap in the original */
   .cookie-table { grid-template-columns: 100px 1fr; grid-auto-flow: row; }
   .cookie dt { grid-row: auto; }
   .cookie + .cookie dt { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
