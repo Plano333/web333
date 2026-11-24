@@ -361,6 +361,7 @@ iframe.video::after { display: none; }
   .cookie dt { grid-row: auto; }
   .cookie + .cookie dt { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
   .section[style*="--pt-sm"] { padding-top: var(--pt-sm); }
+  .section[style*="--px-sm"] { padding-left: var(--px-sm); padding-right: var(--px-sm); }
   .section[style*="--mb-sm"] { margin-bottom: var(--mb-sm); }
   .section[style*="--mt-sm"] { margin-top: var(--mt-sm); }
   .section[style*="--pb-sm"] { padding-bottom: var(--pb-sm); }

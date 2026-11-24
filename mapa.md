@@ -9,7 +9,7 @@ image: "/assets/images/cropped-favico-1.png"
 permalink: "/mapa/"
 ---
 
-<section class="section pt-8 pb-3" markdown="1">
+<section class="section pt-8 pb-3" style="--px-sm: 0px" markdown="1">
 
 Este é o mapa das estações do Plano 3-3-3, uma ferramenta essencial para visualizar a rede de estações de rádio que participam ativamente no plano.
 

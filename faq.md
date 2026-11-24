@@ -9,7 +9,7 @@ image: "/assets/images/faqs.webp"
 permalink: "/faq/"
 ---
 
-<section class="section pt-1 pb-4" markdown="1">
+<section class="section pt-1 pb-4" style="--px-sm: 10px" markdown="1">
 
 <div class="pt-8" markdown="1">
 
