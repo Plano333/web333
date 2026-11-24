@@ -11,6 +11,8 @@ permalink: "/biblioteca/"
 
 <section class="section pt-1 pb-4" markdown="1">
 
+<div class="pt-8" markdown="1">
+
 Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre atualizadas para entender, praticar e implementar este plano de comunicações alternativas.
 
 - [**Guia do Plano 3-3-3**](/assets/files/Plano_3-3-3_Manual_Completo.pdf) – (versão completa – janeiro 2025)
@@ -21,6 +23,8 @@ Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos
 - **Registo de contactos** (folha A4 para registo dos contactos do Treino Semanal)
 
 Explore os conteúdos, faça download ou simplesmente partilhe. Ajude a divulgar.
+
+</div>
 
 </section>
 
