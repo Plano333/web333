@@ -396,3 +396,5 @@ iframe.video::after { display: none; }
   .row.cols-2 { padding: 0 15px; }
   .row.cols-2 > .col { flex-basis: 100%; }
 }
+@media (min-width: 922px) { .row.flush { margin: 0; padding: 10px 0; } }  /* boxed Elementor container: no column bleed */
+.h3-gap :is(p, ul, div) + h3 { padding-top: 20px; }  /* Elementor widget gap after a text block */

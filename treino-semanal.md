@@ -10,7 +10,7 @@ permalink: "/treino-semanal/"
 
 <section class="section" style="--pb-md: 80px; --pb-sm: 80px" markdown="1">
 
-<div class="row stack-md reverse-sm" style="--gap: 0px" markdown="1">
+<div class="row stack-md reverse-sm flush" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 65%; --pad: 80px 20px 40px 20px; --pad-sm: 80px 20px 40px" markdown="1">
 
@@ -41,6 +41,7 @@ O treino semanal tem o objetivo de facilitar o contacto entre todas as estaçõe
 - Das 21:45 até às 22:00 é o treino em PMR 446. A estações que desejem participar devem deslocar-se para um local de melhor cobertura e iniciar as chamadas. O treino em PMR 446 não tem coordenação. Chame as vezes que entender até conseguir contacto.
 
 Poderá acompanhar o treino online via [Telegram](https://t.me/Radio_SolucoesOffgrid/56149). Serve apenas para reportar as estações que são contactadas bem como outras informações escritas. O treino apenas é feito via rádio CB e PMR 446.
+{: style="margin-bottom: 0"}
 
 No caso de catástrofe generalizada ou emergência, as comunicações do Plano 3-3-3 desenvolvem-se igualmente no canal 3 mas possivelmente sem coordenação, estando cada estação responsável pelas suas comunicações e do seu grupo. O treino visa dotar as estações das competências necessárias nas rádio comunicações e a criarem o seu grupo de contacto.
 
@@ -157,7 +158,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 
 </section>
 
-<section class="section pt-8 pb-8" markdown="1">
+<section class="section h3-gap pt-8 pb-6" markdown="1">
 
 ## Várias regiões e vários coordenadores, como estabelecer contacto ?
 
@@ -184,7 +185,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 
 </section>
 
-<section class="section bg-pale pt-8 pb-9" markdown="1">
+<section class="section h3-gap bg-pale pt-8 pb-6" markdown="1">
 
 ## Coordenadores
 
@@ -223,7 +224,7 @@ Se após chamada não obtiver resposta do coordenador nos primeiros 3 minutos, q
 
 </section>
 
-<section class="section pt-8 pb-9" markdown="1">
+<section class="section pt-8 pb-6" markdown="1">
 
 ## Ética dos Coordenadores
 
