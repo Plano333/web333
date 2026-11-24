@@ -16,7 +16,7 @@ A eficácia das suas comunicações depende de pequenos detalhes. Com estas dica
 
 </section>
 
-<section class="section pt-8 pb-8 bg-image bg-fixed-half" style="--bg: url(/assets/images/comunicacao-exterior-inverso.webp); --pb-md: 100px; --pb-sm: 90px" markdown="1">
+<section class="section pt-8 pb-8 bg-image bg-fixed-half" style="--bg: url({{ '/assets/images/comunicacao-exterior-inverso.webp' | relative_url }}); --pb-md: 100px; --pb-sm: 90px" markdown="1">
 
 <div class="bg-white shadow push-right" style="--w: 60%; --pad: 40px 40px 40px 40px" markdown="1">
 

@@ -1,6 +1,23 @@
 # web333
 
-The [plano333.pt](https://plano333.pt) website, built with Jekyll. Every push to `main` rebuilds it and publishes it to GitHub Pages at <https://teste.plano333.pt>.
+The [plano333.pt](https://plano333.pt) website, built with Jekyll. Every push to `main` rebuilds it and publishes it to GitHub Pages at <https://plano333.github.io/web333/>.
+
+## Links and paths
+
+GitHub serves the site from the `/web333/` subfolder, so every local path needs that prefix. Write paths from the site root, starting with `/`, and let Jekyll add the prefix.
+
+Include parameters such as `url=` and `src=`, and the links in `_data/*.yml`, need nothing extra because the includes add the prefix. In page text, wrap the path in `relative_url`, for example `[FAQ]({{ '/faq/' | relative_url }})` or `<img src="{{ '/assets/images/x.webp' | relative_url }}">`.
+
+`check_site.py` fails the build if a local path is missing the prefix.
+
+### Moving to the custom domain
+
+When the DNS record for `teste.plano333.pt` (a CNAME pointing to `plano333.github.io`) is in place:
+
+1. In `_config.yml`, set `url: https://teste.plano333.pt` and `baseurl: ""`.
+2. Set the custom domain in the repository's Pages settings.
+
+Page paths stay as they are.
 
 ## Editing a page
 
@@ -40,7 +57,7 @@ gem install jekyll -v '~> 3.10' webrick
 jekyll serve
 ```
 
-Then open <http://127.0.0.1:4000>.
+Then open <http://127.0.0.1:4000/web333/>.
 
 ## Checking a build
 

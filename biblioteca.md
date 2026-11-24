@@ -15,9 +15,9 @@ permalink: "/biblioteca/"
 
 Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre atualizadas para entender, praticar e implementar este plano de comunicações alternativas.
 
-- [**Guia do Plano 3-3-3**](/assets/files/Plano_3-3-3_Manual_Completo.pdf) – (versão completa – janeiro 2025)
-- [**Folheto informativo**](/assets/files/Plano_333_Panfleto_Triptico.pdf) (tríptico para imprimir e dobrar)
-- [**Folheto informativo** **A4**](/assets/files/Plano_333_A4.pdf) (para imprimir ou enviar em PDF)
+- [**Guia do Plano 3-3-3**]({{ '/assets/files/Plano_3-3-3_Manual_Completo.pdf' | relative_url }}) – (versão completa – janeiro 2025)
+- [**Folheto informativo**]({{ '/assets/files/Plano_333_Panfleto_Triptico.pdf' | relative_url }}) (tríptico para imprimir e dobrar)
+- [**Folheto informativo** **A4**]({{ '/assets/files/Plano_333_A4.pdf' | relative_url }}) (para imprimir ou enviar em PDF)
 - **Cartaz – Treino Semanal** (imagem para partilhar nas redes sociais) – Brevemente
 - **Banner** (imagem com link para colocar em Sites ou redes sociais) – Brevemente
 - **Registo de contactos** (folha A4 para registo dos contactos do Treino Semanal)

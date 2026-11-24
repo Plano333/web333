@@ -1,0 +1,3 @@
+{%- comment -%}Site path with the baseurl prefix; external and anchor URLs unchanged. u: URL.{%- endcomment -%}
+{%- assign u = include.u | append: '' -%}{%- assign c = u | slice: 0, 1 -%}{%- assign c2 = u | slice: 0, 2 -%}
+{%- if c == '/' and c2 != '//' -%}{{ u | relative_url }}{%- else -%}{{ u }}{%- endif -%}

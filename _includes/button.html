@@ -2,4 +2,4 @@
 Button link. text, url, style: primary (yellow, default) | navy (navy, yellow text) | navy-white | outline.
 external=true opens in a new tab.
 {%- endcomment -%}
-<a class="btn btn-{{ include.style | default: 'primary' }}" href="{{ include.url }}"{% if include.external %} target="_blank" rel="noopener"{% endif %}>{{ include.text }}</a>
+<a class="btn btn-{{ include.style | default: 'primary' }}" href="{% include url.html u=include.url %}"{% if include.external %} target="_blank" rel="noopener"{% endif %}>{{ include.text }}</a>

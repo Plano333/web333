@@ -2,4 +2,4 @@
 YouTube video. id. Shows the thumbnail; the player (and any YouTube request) loads only on click.
 Wrapped in a div so Markdown doesn't put the button inside a paragraph.
 {%- endcomment -%}
-<div class="video-wrap"><button type="button" class="video" data-yt="{{ include.id }}" aria-label="Reproduzir vídeo" style="--thumb: url(/assets/images/youtube/{{ include.id }}.jpg)"></button></div>
+<div class="video-wrap"><button type="button" class="video" data-yt="{{ include.id }}" aria-label="Reproduzir vídeo" style="--thumb: url({{ '/assets/images/youtube/' | append: include.id | append: '.jpg' | relative_url }})"></button></div>

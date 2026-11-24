@@ -35,7 +35,7 @@ Seja para esclarecimentos, sugestões ou para se juntar ao nosso projeto, a sua 
 
 <div class="col" markdown="1">
 
-{% capture text %}Site:<br/><a href="/">plano333.pt</a><br/><br/>E-mail:<br/><a href="mailto:plano333portugal@gmail.com">plano333portugal@gmail.com</a>{% endcapture %}
+{% capture text %}Site:<br/><a href="{{ '/' | relative_url }}">plano333.pt</a><br/><br/>E-mail:<br/><a href="mailto:plano333portugal@gmail.com">plano333portugal@gmail.com</a>{% endcapture %}
 {% include icon-box.html icon="globe" title="Internet" color="primary" style="card" text=text %}
 
 </div>

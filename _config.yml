@@ -1,6 +1,7 @@
 title: Plano 3-3-3
 description: O Plano 3-3-3 é uma rede de comunicações alternativas, via rádio, que liga pessoas em caso de emergência, promovendo o apoio local.
-url: https://teste.plano333.pt
+url: https://plano333.github.io
+baseurl: /web333  # ponytail: set to "" and url back to https://teste.plano333.pt once the custom domain is live
 lang: pt-PT
 locale: pt_PT
 ga_id: G-PV5EZG98FS

@@ -1,3 +1,3 @@
 {%- comment -%}Image. src, alt, width, height (intrinsic size, reserves space while loading), url (optional link), class.{%- endcomment -%}
-{%- capture img %}<img src="{{ include.src }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy">{% endcapture -%}
-<figure class="img {{ include.class }}">{% if include.url %}<a href="{{ include.url }}">{{ img }}</a>{% else %}{{ img }}{% endif %}</figure>
+{%- capture img %}<img src="{% include url.html u=include.src %}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy">{% endcapture -%}
+<figure class="img {{ include.class }}">{% if include.url %}<a href="{% include url.html u=include.url %}">{{ img }}</a>{% else %}{{ img }}{% endif %}</figure>

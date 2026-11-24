@@ -13,7 +13,7 @@ stats:
   - { value: "11+", label: "Número de Coordenadores" }
 ---
 
-<section class="hero" style="--bg: url(/assets/images/radio-cb.webp)" markdown="1">
+<section class="hero" style="--bg: url({{ '/assets/images/radio-cb.webp' | relative_url }})" markdown="1">
 
 <div class="pt-3" markdown="1">
 
@@ -110,7 +110,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 <div class="row stack-md" style="--gap: 0px" markdown="1">
 
-<div class="col bg-navy bg-image" style="--bg: url(/assets/images/faqs.webp); --pad: 64px 64px 64px 64px; --pad-sm: 80px 30px; --h-sm: 313px; min-height: 643px" markdown="1">
+<div class="col bg-navy bg-image" style="--bg: url({{ '/assets/images/faqs.webp' | relative_url }}); --pad: 64px 64px 64px 64px; --pad-sm: 80px 30px; --h-sm: 313px; min-height: 643px" markdown="1">
 
 
 

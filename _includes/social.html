@@ -1,6 +1,6 @@
 {%- comment -%}Social links from _data/site.yml. class, style: plain (default) | badge.{%- endcomment -%}
 <ul class="social {{ include.class }}{% if include.style == 'badge' %} social-badge{% endif %}">
   {%- for s in site.data.site.social %}
-  <li><a href="{{ s.url }}" target="_blank" rel="noopener">{% include icon.html name=s.icon %}<span class="sr-only">{{ s.name }}</span></a></li>
+  <li><a href="{% include url.html u=s.url %}" target="_blank" rel="noopener">{% include icon.html name=s.icon %}<span class="sr-only">{{ s.name }}</span></a></li>
   {%- endfor %}
 </ul>

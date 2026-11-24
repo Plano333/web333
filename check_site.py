@@ -6,6 +6,9 @@ import re
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent / '_site'
+_cfg = (ROOT.parent / '_config.yml').read_text(encoding='utf-8')
+_m = re.search(r'^baseurl:\s*"?([^"#\s]*)', _cfg, re.M)
+BASE = _m.group(1).rstrip('/') if _m else ''  # e.g. /web333 while served from plano333.github.io/web333/
 EXPECTED = ('', 'biblioteca', 'contactos', 'dicas-para-usar-um-radio-portatil',
             'faq', 'historia', 'mapa', 'mapa-plano-3-3-3', 'mesh-3-3-3',
             'plano-3-3-3', 'politica-de-cookies', 'politica-de-privacidade',
@@ -26,7 +29,10 @@ class Links(HTMLParser):
                 path = unquote(urlsplit(url).path)
                 if not url.startswith('/') or url.startswith('//'):
                     continue
-                target = ROOT / path.lstrip('/')
+                if BASE and not (path == BASE or path.startswith(BASE + '/')):
+                    errors.append(f'{current}: {path} lacks baseurl {BASE}')
+                    continue
+                target = ROOT / path[len(BASE):].lstrip('/')
                 if path.endswith('/'):
                     target /= 'index.html'
                 if not target.is_file():
@@ -60,7 +66,7 @@ for stylesheet in ROOT.rglob('*.css'):
         if url.startswith(('data:', 'https:', 'http:', '//', '#')):
             continue
         path = unquote(urlsplit(url).path)
-        target = ROOT / path.lstrip('/') if path.startswith('/') else stylesheet.parent / path
+        target = ROOT / path[len(BASE):].lstrip('/') if path.startswith('/') else stylesheet.parent / path
         if not target.is_file():
             errors.append(f'{current}: missing {path}')
 

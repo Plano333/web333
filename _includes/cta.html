@@ -2,7 +2,7 @@
 <section class="cta{% if include.gap %} cta-gap{% endif %}">
   {%- for key in include.items %}
   {%- assign c = site.data.cta[key] %}
-  <div class="cta-card cta-{{ c.theme }}" style="--bg: url({{ c.image }})">
+  <div class="cta-card cta-{{ c.theme }}" style="--bg: url({{ c.image | relative_url }})">
     <div class="cta-inner">
       {%- if c.kicker %}<p class="kicker">{{ c.kicker }}</p>{% endif %}
       {%- if c.small_title %}

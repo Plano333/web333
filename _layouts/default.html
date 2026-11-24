@@ -19,13 +19,13 @@
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   {%- endif %}
   <meta name="twitter:card" content="summary">
-  <link rel="icon" href="/assets/images/cropped-favico-1-32x32.png" sizes="32x32">
-  <link rel="icon" href="/assets/images/cropped-favico-1-192x192.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="/assets/images/cropped-favico-1-180x180.png">
+  <link rel="icon" href="{{ '/assets/images/cropped-favico-1-32x32.png' | relative_url }}" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/images/cropped-favico-1-192x192.png' | relative_url }}" sizes="192x192">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/cropped-favico-1-180x180.png' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:400%7CPlus+Jakarta+Sans:600%7CRoboto:300,500%7CCarattere&amp;display=fallback">
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#content">Saltar para o conteúdo</a>

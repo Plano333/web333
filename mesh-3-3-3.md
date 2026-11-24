@@ -118,7 +118,7 @@ Os utilizadores do Meshtastic deverão fazer um relatório resumido�na página
 **MeshCore:**  
 Os utilizadores do MeshCore poderão consultar os locais onde a sua mensagem chegou através do relatório elaborado com os dados recolhidos pelos observadores. O relatório pode ser visto no site [https://www.meshcore.pt/pt/projects/plano333](https://www.meshcore.pt/pt/projects/plano333).
 
-![meshcore cq tracker](/assets/images/meshcore-cq.webp)
+![meshcore cq tracker]({{ '/assets/images/meshcore-cq.webp' | relative_url }})
 
 ---
 
@@ -144,7 +144,7 @@ Adicionar Meshtastic e MeshCore ao treino semanal reforça a **resiliência** da
 
 ## Saiba mais
 
-- O que é o **Plano 3‑3‑3** e como participar: [**www.plano333.pt**](/)
+- O que é o **Plano 3‑3‑3** e como participar: [**www.plano333.pt**]({{ '/' | relative_url }})
 
 Seja parte da rede. **Sábado, 21:00** — encontramos‑nos no éter… e na malha! 💬📻
 

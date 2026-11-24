@@ -11,7 +11,7 @@ permalink: "/politica-de-cookies/"
 
 ## 1. Introdução
 
-O nosso site, [https://plano333.pt](/) (em diante: "o site") usa cookies e outras tecnologias relacionadas (por conveniência, todas as tecnologias são referidas como "cookies"). Os cookies também são adicionados por terceiros com quem estabelecemos acordos. O documento abaixo informa sobre o nosso uso de cookies.
+O nosso site, [https://plano333.pt]({{ '/' | relative_url }}) (em diante: "o site") usa cookies e outras tecnologias relacionadas (por conveniência, todas as tecnologias são referidas como "cookies"). Os cookies também são adicionados por terceiros com quem estabelecemos acordos. O documento abaixo informa sobre o nosso uso de cookies.
 
 ## 2. O que são cookies?
 
@@ -454,7 +454,7 @@ Para perguntas e/ou comentários sobre nossa Política de Cookies e esta declara
 Plano 3-3-3  
 Lisboa, Portugal  
 Portugal  
-Website: [https://plano333.pt](/)  
+Website: [https://plano333.pt]({{ '/' | relative_url }})  
 E-mail: plano333portugal@gmail.com
 
 Esta Política de Cookies foi sincronizada com [cookiedatabase.org](https://cookiedatabase.org/){:target="_blank" rel="noopener"} em Abril 21, 2025.

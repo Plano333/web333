@@ -20,7 +20,7 @@ permalink: "/treino-semanal/"
 
 O treino semanal tem o objetivo de facilitar o contacto entre todas as estações participantes. Conta com uma estrutura organizada por coordenadores treinados para orientação das restantes estações. Na sua região pode não haver coordenador e assim cada estação deverá fazer os contactos de forma independente.
 
-<img class="alignleft" src="/assets/images/relogio-treino-300.webp" alt="" width="300" height="300">
+<img class="alignleft" src="{{ '/assets/images/relogio-treino-300.webp' | relative_url }}" alt="" width="300" height="300">
 
 **Todos os sábados, às 20:57** ligue o CB no canal 3 em AM. Verifique se a sua estação está a funcionar corretamente e prepare-se para registar os contactos.
 
@@ -124,7 +124,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 
 </section>
 
-<section class="section bg-white pt-6 pb-6 bg-image" style="--bg: url(/assets/images/boas-praticas.webp); --pt-md: 20px; --pb-md: 100px; --pt-sm: 20px; --pb-sm: 70px" markdown="1">
+<section class="section bg-white pt-6 pb-6 bg-image" style="--bg: url({{ '/assets/images/boas-praticas.webp' | relative_url }}); --pt-md: 20px; --pb-md: 100px; --pt-sm: 20px; --pb-sm: 70px" markdown="1">
 
 <div class="row" style="--gap: 0px" markdown="1">
 

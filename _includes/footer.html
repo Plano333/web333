@@ -1,6 +1,6 @@
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div><img src="/assets/images/logo-plano-333-amarelo.png" width="202" height="89" alt="Plano 3-3-3" loading="lazy"></div>
+    <div><img src="{{ '/assets/images/logo-plano-333-amarelo.png' | relative_url }}" width="202" height="89" alt="Plano 3-3-3" loading="lazy"></div>
     <div>
       <h2>{{ site.title }}</h2>
       <p>{{ site.description }}</p>
@@ -10,7 +10,7 @@
       <h2>{{ col.title }}</h2>
       <ul>
         {%- for l in col.links %}
-        <li><a href="{{ l.url }}">{{ l.title }}</a></li>
+        <li><a href="{% include url.html u=l.url %}">{{ l.title }}</a></li>
         {%- endfor %}
       </ul>
     </div>
