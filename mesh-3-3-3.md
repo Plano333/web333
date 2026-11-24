@@ -85,7 +85,7 @@ Veja as instruções [aqui](#instrucoes).
 
 ### 1) Emissão de presenças:
 
-##### **Meshtastic: 21:00–21:30  MeshCore: 21:00-22:00**
+##### **Meshtastic: 21:00–21:30<br>MeshCore: 21:00-22:00**
 
 Cada utilizador envia **até 3 mensagens** no período de 30 minutos, com **este formato recomendado**:
 
@@ -93,8 +93,10 @@ CQ Plano 333, Nome de estação, cidade, localidade
 **Exemplo: CQ Plano 333, Mike 05, Lisboa, Olaias**
 
 **�**
+{: .step}
 
 **2) Confirmações — 21:30–22:00 (Apenas Meshtastic)**
+{: .step}
 
 Entre as 21:30 e as 22:00, **cada estação responde** (nas redes Meshtastic/MeshCore) **indicando todas as estações das quais recebeu mensagem**. Use **este formato**:
 
@@ -108,6 +110,7 @@ QSL, Kapa,2 hops, Tomar
 > *Nota:* O **nº de hops** (saltos) é o número de encaminhamentos em malha que a sua mensagem percorreu até chegar ao destino.
 
 **3) Relatório de contactos**
+{: .step}
 
 **Meshtastic:**  
 Os utilizadores do Meshtastic deverão fazer um relatório resumido�na página de telegram dos contactos recebidos, para que aqueles que possam não ter recebido a QSL saibam que o seu CQ foi visto. Cada contacto deve incluir o nome e o local da estação recebida, assim como o número de hops.

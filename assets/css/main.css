@@ -34,10 +34,11 @@ h3 { font-size: 24px; color: var(--navy); }
 h4 { font-size: 24px; color: var(--primary); line-height: 1.2; }
 h2.sm { font-size: 30px; font-weight: 300; font-family: "Roboto", sans-serif; }  /* Dicas cards: Elementor global font in the original */
 h5 { font-size: 20px; color: var(--navy); line-height: 1.2; }
-blockquote { margin: 26px; padding: 20px; border-left: 5px solid rgba(0, 0, 0, .05); color: #4b4f58; font-size: 17.6px; font-style: italic; }
-blockquote p { margin: 0; }
-hr { border: 0; border-top: 1px solid rgba(0, 0, 0, .1); margin: 20px 0; }
+blockquote { margin: 1.5em; line-height: 1.5; padding: 20px; border-left: 5px solid rgba(0, 0, 0, .05); color: #4b4f58; font-size: 17.6px; font-style: italic; }
+blockquote p { margin: 0 0 1.6em; }
+hr { border: 0; border-top: 1px solid rgba(0, 0, 0, .1); margin: 0; }
 .lead-title { font-size: 30px; line-height: 26.4px; font-weight: 700; margin-bottom: 48px; }
+.step { font-family: var(--font-head); font-weight: 600; font-size: 24px; line-height: 30px; color: var(--navy); }
 .thin { font-weight: 200; }
 h4.thin { font-weight: 400; }
 .center { text-align: center; }
@@ -295,6 +296,7 @@ iframe.video::after { display: none; }
 
 /* tablet / mobile (Astra breakpoints, values measured from the original) */
 @media (max-width: 921px) {
+  .step { font-size: 21.888px; line-height: 29.4px; }
   .section[style*="--pt-md"] { padding-top: var(--pt-md); }
   .section[style*="--mb-md"] { margin-bottom: var(--mb-md); }
   .section[style*="--mt-md"] { margin-top: var(--mt-md); }
