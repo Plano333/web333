@@ -8,7 +8,7 @@ image: "/assets/images/Relogio-3-3-3-PS-300x284.png"
 permalink: "/plano-3-3-3/"
 ---
 
-<section class="section pt-2 pb-2" style="--pt-md: 70px; --pb-md: 50px; --pt-sm: 90px" markdown="1">
+<section class="section pt-2 pb-2" markdown="1">
 
 <div class="row" markdown="1">
 

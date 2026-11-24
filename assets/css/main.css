@@ -73,7 +73,6 @@ h4.thin { font-weight: 400; }
 .col { padding: 10px; }
 [style*="--pad"] { padding: var(--pad); }
 .stack > * + * { margin-top: var(--gap); }
-.stack > p:last-child, .stack > div:last-child > :last-child { margin-bottom: 0; }
 .overlay-navy[style*="--pad"] { --pad-md: 20px; }
 .row { margin: -10px; }
 .section > .row { margin: -10px; }
