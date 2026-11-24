@@ -56,7 +56,7 @@ Miguel Santos – CB: **Mike 05**, Radioamador: **CT1DYT**
 
 </section>
 
-<section class="section pt-6 pb-6" markdown="1">
+<section class="section pt-6 pb-2" style="--pb-md: 60px; --pb-sm: 60px" markdown="1">
 
 {% include divider.html text="7 de Setembro de 2019" %}
 
@@ -88,7 +88,7 @@ Est.CB : Harley
 
 </section>
 
-<section class="section pt-6 pb-6" markdown="1">
+<section class="section pt-6 pb-3" style="--pb-md: 60px; --pb-sm: 60px" markdown="1">
 
 {% include divider.html text="14 de Setembro de 2019" %}
 
