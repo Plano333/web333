@@ -13,7 +13,7 @@ permalink: "/historia/"
 
 <section class="section pt-2 pb-2" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 89%" markdown="1">
 
@@ -118,7 +118,7 @@ O objetivo foi cumprido cabendo a cada um participar e desenvolver o Plano 3-3-3
 
 ## 1º Congresso Internacional de Sobrevivencialismo
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 25%" markdown="1">
 
@@ -156,7 +156,7 @@ O vídeo está disponível no  canal do YouTube de [Mike 05 o Macanudp Prepper](
 
 <div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 71%" markdown="1">
 

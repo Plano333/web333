@@ -10,7 +10,7 @@ permalink: "/treino-semanal/"
 
 <section class="section" style="--pb-md: 80px; --pb-sm: 80px" markdown="1">
 
-<div class="row stack-md reverse-sm" markdown="1">
+<div class="row stack-md reverse-sm" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 65%; --pad: 80px 20px 40px 20px; --pad-sm: 80px 20px 40px" markdown="1">
 
@@ -125,7 +125,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 
 <section class="section bg-white pt-6 pb-6 bg-image" style="--bg: url(/assets/images/boas-praticas.webp); --pt-md: 20px; --pb-md: 100px; --pt-sm: 20px; --pb-sm: 70px" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="overlay-navy push-right" style="--w: 50%; --pad: 60px 140px 60px 60px; --pad-sm: 20px" markdown="1">
 

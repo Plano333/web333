@@ -27,7 +27,7 @@ Explore as FAQs e descubra como pode integrar-se e contribuir para o sucesso do 
 
 <section class="section faq-grid pt-9 pb-9" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" markdown="1">
 

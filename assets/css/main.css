@@ -289,6 +289,8 @@ iframe.video::after { display: none; }
 /* tablet / mobile (Astra breakpoints, values measured from the original) */
 @media (max-width: 921px) {
   .section[style*="--pt-md"] { padding-top: var(--pt-md); }
+  .section[style*="--mb-md"] { margin-bottom: var(--mb-md); }
+  .section[style*="--mt-md"] { margin-top: var(--mt-md); }
   .section[style*="--pb-md"] { padding-bottom: var(--pb-md); }
   .site-header { margin-bottom: 0; background: var(--navy-mobile); }
   .header-bar { flex-wrap: wrap; height: auto; min-height: 86px; }
@@ -348,6 +350,8 @@ iframe.video::after { display: none; }
   .cookie dt { grid-row: auto; }
   .cookie + .cookie dt { position: static; width: auto; height: auto; overflow: visible; clip: auto; }
   .section[style*="--pt-sm"] { padding-top: var(--pt-sm); }
+  .section[style*="--mb-sm"] { margin-bottom: var(--mb-sm); }
+  .section[style*="--mt-sm"] { margin-top: var(--mt-sm); }
   .section[style*="--pb-sm"] { padding-bottom: var(--pb-sm); }
   h1, .banner h1 { font-size: 35px; line-height: 1.4; }
   .hero h1 { font-size: 35px; line-height: 1.1; }

@@ -10,7 +10,7 @@ permalink: "/plano-3-3-3/"
 
 <section class="section pt-2 pb-2" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 67%; --pad: 80px 20px 40px 20px; --pad-sm: 80px 20px 40px" markdown="1">
 
@@ -203,7 +203,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 <section class="section pt-2 pb-2" style="--pt-md: 10px; --pb-md: 10px; --pt-sm: 10px; --pb-sm: 10px" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" style="--w: 98%; --w-md: 60%" markdown="1">
 

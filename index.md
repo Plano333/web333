@@ -40,7 +40,7 @@ O **plano 3-3-3** é uma rotina de comunicações alternativas que funciona na B
 
 <section class="section bg-white stats-band" markdown="1">
 
-<div class="row pull-up stack-md" markdown="1">
+<div class="row pull-up stack-md" style="--gap: 0px" markdown="1">
 
 <div class="col bg-yellow" style="--w: 55%; --pad: 50px 50px 50px 50px; --pad-sm: 25px 25px 50px" markdown="1">
 
@@ -106,9 +106,9 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 </section>
 
-<section class="section bg-light pt-5 pb-15" style="--pt-md: 0px; --pb-md: 70px; --pt-sm: 0px; --pb-sm: 70px" markdown="1">
+<section class="section bg-light pt-5 pb-15" style="--pt-md: 0px; --pb-md: 70px; --pt-sm: 0px; --pb-sm: 70px; --mb-md: 80px; --mb-sm: 20px; --mt-md: 50px; --mt-sm: 50px" markdown="1">
 
-<div class="row stack-md" markdown="1">
+<div class="row stack-md" style="--gap: 0px" markdown="1">
 
 <div class="col bg-navy bg-image" style="--bg: url(/assets/images/faqs.webp); --pad: 64px 64px 64px 64px; --pad-sm: 80px 30px; --h-sm: 313px; min-height: 643px" markdown="1">
 
@@ -124,7 +124,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 <div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
 
-<div class="row" markdown="1">
+<div class="row" style="--gap: 0px" markdown="1">
 
 <div class="col" markdown="1">
 
