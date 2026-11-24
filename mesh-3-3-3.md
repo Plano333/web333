@@ -33,7 +33,7 @@ Meshtastic e MeshCore são redes de mensagens de texto (tipo SMS) baseadas em **
 
 <div class="col" markdown="1">
 
-#### **Meshtastic**
+<p class="lead-title">Meshtastic</p>
 
 **Dados para configuração do canal:  
 Nome do Canal**  –  Plano\_3-3-3  
@@ -54,13 +54,13 @@ Veja as instruções [aqui](#instrucoes).
 
 <div class="col" markdown="1">
 
-#### **MeshCore**
+<p class="lead-title">MeshCore</p>
 
 **Dados para configuração do canal:**  
 Na opção ‘Join a Hashtag Chanel’:  
 **Canal (hashtag)** –  #plano333
 
-Para configuração manual:  
+<br>Para configuração manual:  
 **Secret key**  –  8d40917d08edeeb33e85c1a2308a2221
 
 Uma vez que o MeshCore nunca utiliza a internet e toda a comunicação é feita exclusivamente por RF, não é necessário ter qualquer cuidado adicional para além da correta configuração do canal.
