@@ -112,7 +112,7 @@ O objetivo foi cumprido cabendo a cada um participar e desenvolver o Plano 3-3-3
 
 </section>
 
-<section class="section pt-6 pb-4" style="--pb-sm: 60px" markdown="1">
+<section class="section pt-6 pb-4 rows-inset" style="--pb-sm: 60px" markdown="1">
 
 {% include divider.html text="24 de Julho de 2021" %}
 
@@ -148,7 +148,7 @@ O vídeo está disponível no  canal do YouTube de [Mike 05 o Macanudp Prepper](
 
 </section>
 
-<section class="section pt-6 pb-5" markdown="1">
+<section class="section pt-6 pb-5 rows-inset" markdown="1">
 
 {% include divider.html text="12 de Março de 2022" %}
 
