@@ -21,7 +21,7 @@ Explore as FAQs e descubra como pode integrar-se e contribuir para o sucesso do 
 
 </section>
 
-<section class="section pt-9 pb-9" markdown="1">
+<section class="section faq-grid pt-9 pb-9" markdown="1">
 
 <div class="row" markdown="1">
 
@@ -33,31 +33,7 @@ Explore as FAQs e descubra como pode integrar-se e contribuir para o sucesso do 
 
 <div class="col" markdown="1">
 
-<div class="accordion" markdown="1">
-
-<details open markdown="1">
-<summary>1. Nunca usei rádios, posso participar?</summary>
-
-Claro que sim. Basta ter um rádio CB ou PMR 446 para participar. Mesmo que tenha poucos conhecimentos na utilização de rádios, responda à chamada do treino semanal, apresente-se e siga a ajuda dos restantes participantes.  
-[Ver mais informações para o seu primeiro treino](/treino-semanal/).
-
-</details>
-
-<details markdown="1">
-<summary>2. Como posso ter o Plano 3-3-3 na minha zona?</summary>
-
-Comece por escutar nos treinos de sábado, se já é feita alguma chamada. Se houver, responda e passe a participar regularmente para fazer parte da rede. Se não houver, faça uma chamada à hora do treino para ver se alguém responde. Apresente o Plano 3-3-3 a outras pessoas da sua zona, para que juntos formem uma rede local.
-
-</details>
-
-<details markdown="1">
-<summary>3. Posso ser coordenador na minha zona?</summary>
-
-Sim. Se já tiver ganho alguma experiência durante os treinos do Plano 3-3-3, pode vir a ser um coordenador na sua zona. Saiba mais na página do [treino semanal](/treino-semanal/).
-
-</details>
-
-</div>
+{% include faq.html %}
 
 </div>
 

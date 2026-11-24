@@ -98,7 +98,7 @@ Est.CB : Harley
 
 Foi há mais de 5 anos que iniciou o treino semanal do plano 3-3-3, nessa altura em FM e que mais tarde passou a AM e USB. O anúncio pode ser visto no grupo West preppers ([West preppers (Portugal) \| Facebook](https://www.facebook.com/groups/262070927311791/search/?q=plano%203-3-3){:target="_blank" rel="noopener"}).
 
-*“Dentro de poucos minutos, às 21 horas de hoje sábado dia 14 de Setembro vai decorrer no canal 3 do CB, em FM, o primeiro teste de comunicações do plano 3-3-3. Participem e ajudem a expandir esta rede de comunicações de emergência…”*texto partilhado do site da associação [Futuragora (Radio telecomunicações](https://futuragora.org/projetos/radio/)) pois naquela altura ainda nem se imaginava o [Macanudos.org](http://www.macanudos.org).
+*“Dentro de poucos minutos, às 21 horas de hoje sábado dia 14 de Setembro vai decorrer no canal 3 do CB, em FM, o primeiro teste de comunicações do plano 3-3-3. Participem e ajudem a expandir esta rede de comunicações de emergência…”*texto partilhado do site da associação [Futuragora (Radio telecomunicações](https://futuragora.org/projetos/radio/)) pois naquela altura ainda nem se imaginava o [Macanudos.org](https://www.macanudos.org).
 
 Como tudo que começa, ao princípio é difícil. Eu (Mike 05) e a Ana (Ananás) todos os sábados às 21:00 marcámos presença no canal 3 do CB e do PMR 446, chamando e divulgando o projeto. O Rolando (27) naquela altura não operava no CB, tendo a seu cargo a informática e o Boletim Informativo Digital.
 

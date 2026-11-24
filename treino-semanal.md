@@ -40,7 +40,7 @@ O treino semanal tem o objetivo de facilitar o contacto entre todas as estaçõe
 - **Às 21:45, termina o treino em CB**. O coordenador  agradece a participação das estações, anuncia o início do treino em PMR 446 e mais alguma mensagem final se houver. O canal 3 do CB fica livre para outras comunicações.
 - Das 21:45 até às 22:00 é o treino em PMR 446. A estações que desejem participar devem deslocar-se para um local de melhor cobertura e iniciar as chamadas. O treino em PMR 446 não tem coordenação. Chame as vezes que entender até conseguir contacto.
 
-Poderá acompanhar o treino online via [Telegram](http://t.me/Radio_SolucoesOffgrid/56149). Serve apenas para reportar as estações que são contactadas bem como outras informações escritas. O treino apenas é feito via rádio CB e PMR 446.
+Poderá acompanhar o treino online via [Telegram](https://t.me/Radio_SolucoesOffgrid/56149). Serve apenas para reportar as estações que são contactadas bem como outras informações escritas. O treino apenas é feito via rádio CB e PMR 446.
 
 No caso de catástrofe generalizada ou emergência, as comunicações do Plano 3-3-3 desenvolvem-se igualmente no canal 3 mas possivelmente sem coordenação, estando cada estação responsável pelas suas comunicações e do seu grupo. O treino visa dotar as estações das competências necessárias nas rádio comunicações e a criarem o seu grupo de contacto.
 

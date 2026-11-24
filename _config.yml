@@ -14,4 +14,4 @@ defaults:
   - scope: { path: "" }
     values: { layout: page }
 
-exclude: [README.md, docs, .claude]
+exclude: [README.md, docs, .claude, check_site.py]

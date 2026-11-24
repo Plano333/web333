@@ -66,7 +66,7 @@ Explore os conteúdos, faça download ou simplesmente partilhe. Ajude a divulgar
 <div class="col shadow" style="--pad: 30px 20px 30px 20px" markdown="1">
 
 {% capture text %}Faça o download da folha A4 para registo dos contactos do Treino Semanal do Plano 3-3-3.{% endcapture %}
-{% include icon-box.html icon="clipboard-list" title="Registo de Contactos" color="navy" icon_color="black" text=text %}
+{% include icon-box.html icon="clipboard-list" title="Registo de Contactos" color="navy" icon_color="black" icon_size=66 text=text %}
 
 <p class="label center">BREVEMENTE</p>
 
@@ -83,7 +83,7 @@ Explore os conteúdos, faça download ou simplesmente partilhe. Ajude a divulgar
 <div class="col shadow" style="--pad: 30px 20px 30px 20px" markdown="1">
 
 {% capture text %}Use esta imagem para servir banner, com link para o site do Plano 3-3-3. Pode colocar nos seus sites ou redes sociais.{% endcapture %}
-{% include icon-box.html icon="image-o" title="Banner" color="navy" icon_color="black" text=text %}
+{% include icon-box.html icon="image-o" title="Banner" color="navy" icon_color="black" icon_size=64 text=text %}
 
 <p class="label center">BREVEMENTE</p>
 
@@ -92,7 +92,7 @@ Explore os conteúdos, faça download ou simplesmente partilhe. Ajude a divulgar
 <div class="col shadow" style="--pad: 30px 20px 30px 20px" markdown="1">
 
 {% capture text %}Obtenha um cartaz para partilhar nas suas redes sociais, levando o Plano 3-3-3 a mais pessoas.{% endcapture %}
-{% include icon-box.html icon="image" title="Cartaz - Treino Semanal" color="navy" icon_color="black" text=text %}
+{% include icon-box.html icon="image" title="Cartaz - Treino Semanal" color="navy" icon_color="black" icon_size=66 text=text %}
 
 <p class="label center">BREVEMENTE</p>
 

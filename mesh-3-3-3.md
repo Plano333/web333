@@ -75,6 +75,8 @@ Veja as instruções [aqui](#instrucoes).
 
 </div>
 
+<a id="instrucoes"></a>
+
 > O treino em Meshtastic e MeshCore decorre **em simultâneo** com o treino via rádio.
 
 ---

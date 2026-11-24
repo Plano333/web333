@@ -29,7 +29,7 @@ Shared parts live in one place each:
 | `icon.html` | Inline SVG icon by name |
 | `banner.html`, `cta.html`, `header.html`, `footer.html`, `consent.html` | Used by the layouts |
 
-The FAQ accordion needs no include. It is plain `<details>` and `<summary>` inside `<div class="accordion">`.
+`_includes/faq.html` holds the questions shared by the home and FAQ pages. It uses native `<details>` and `<summary>` elements, so the accordion needs no JavaScript.
 
 Google Analytics loads only after a visitor clicks "Aceitar" in the cookie banner.
 
@@ -41,3 +41,12 @@ jekyll serve
 ```
 
 Then open <http://127.0.0.1:4000>.
+
+## Checking a build
+
+```sh
+jekyll build
+python3 check_site.py
+```
+
+The check verifies all 14 pages, shared landmarks, local links, image and stylesheet assets, and rendered Liquid. GitHub Actions runs it before deployment. Python 3 is the only requirement beyond Jekyll.
