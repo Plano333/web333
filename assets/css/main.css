@@ -70,7 +70,7 @@ h4.thin { font-weight: 400; }
 .row > .col[style*="--w"] { flex: 0 1 calc(var(--w) - var(--gap) / 2); }
 .row.cols-2 { flex-wrap: wrap; }
 .row.cols-2 > .col { flex: 1 1 calc(50% - var(--gap)); }
-.col { padding: 10px; }
+.col { padding: 10px; display: flex; flex-direction: column; }  /* like Elementor containers: child margins do not collapse */
 [style*="--pad"] { padding: var(--pad); }
 .stack > * + * { margin-top: var(--gap); }
 .overlay-navy[style*="--pad"] { --pad-md: 20px; }
@@ -116,7 +116,9 @@ h4.thin { font-weight: 400; }
 .header-social { gap: 9.5px; }
 .header-social .icon { width: 25px; height: 25px; }
 .social-badge { justify-content: center; gap: 5px; }
-.social-badge a { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 50%; background: var(--yellow); color: var(--navy); }
+.social-badge a { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 10%; background: #3b5998; color: #fff; }
+.social-badge a[href*="youtube"] { background: #cd201f; }
+.social-badge a:hover { color: #fff; opacity: .9; }
 .social-badge .icon { width: 25px; height: 25px; }
 .icon { width: 1em; height: 1em; display: inline-block; }
 
@@ -165,6 +167,8 @@ p > .btn { margin-right: 0; }
 .icon-box-text, .image-box-text { margin: 0; }
 .icon-box.stat { text-align: left; }
 .box-filled, .box-card, .box-outline, .box-navy { padding: 20px; height: 100%; }
+.cols-2 .box-card, .cols-2 .box-navy, .cols-2 > .col.bg-navy { border-radius: 20px; }
+.cols-2 > .col.bg-navy { margin: 10px; }  /* social card: same size as the icon-box cards beside it */
 .box-filled { background: var(--primary); color: #fff; }
 .box-card { background: #fff; border: 1px solid var(--primary); box-shadow: 0 0 10px rgba(0, 0, 0, .5); }
 .box-outline { border: 1px solid var(--primary); }

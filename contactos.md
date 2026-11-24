@@ -42,7 +42,7 @@ Seja para esclarecimentos, sugestões ou para se juntar ao nosso projeto, a sua 
 
 <div class="col bg-navy shadow" style="--pad: 20px 20px 20px 20px" markdown="1">
 
-<div class="icon-box-icon c-gold">{% include icon.html name="share-alt" %}</div>
+<div class="icon-box-icon c-gold center">{% include icon.html name="share-alt" %}</div>
 
 ### Redes Sociais
 {: .c-pale .center}
