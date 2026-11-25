@@ -1,10 +1,10 @@
 {%- comment -%}
 Cookie consent banner. Google Analytics loads only after "Aceitar"; the choice is kept in localStorage.
-Also wires the click-to-load YouTube component.
+Any [data-consent-open] button reopens it. Also wires the click-to-load YouTube component.
 {%- endcomment -%}
 <div class="consent" id="consent" role="dialog" aria-labelledby="consent-title" hidden>
-  <p class="consent-title" id="consent-title">Gerir o Consentimento</p>
-  <p>Para fornecer as melhores experiências, usamos tecnologias como cookies para armazenar e/ou aceder a informações do dispositivo. Consentir com essas tecnologias nos permitirá processar dados, como comportamento de navegação ou IDs exclusivos neste site. Não consentir ou retirar o consentimento pode afetar negativamante certos recursos e funções.</p>
+  <p class="consent-title" id="consent-title">Gerir o consentimento</p>
+  <p>Usamos o Google Analytics para contar visitas, mas só se aceitar. Recusar não altera nada no funcionamento do site.</p>
   <div class="consent-buttons">
     <button type="button" class="btn btn-navy-white" data-consent="yes">Aceitar</button>
     <button type="button" class="btn btn-outline-dark" data-consent="no">Negar</button>
@@ -34,8 +34,19 @@ Also wires the click-to-load YouTube component.
     try { localStorage.setItem(KEY, v); } catch (e) {}
     box.hidden = true;
     if (v === 'yes') analytics();
+    else if (window.gtag) {
+      // withdrawal: expire Analytics cookies on every parent domain, then reload to unload gtag
+      var h = location.hostname.split('.');
+      document.cookie.split('; ').forEach(function (c) {
+        var n = c.split('=')[0];
+        if (n.indexOf('_ga') !== 0) return;
+        for (var i = 0; i < h.length; i++) document.cookie = n + '=; Max-Age=0; path=/; domain=' + h.slice(i).join('.');
+      });
+      location.reload();
+    }
   });
   document.addEventListener('click', function (e) {
+    if (e.target.closest('[data-consent-open]')) { box.hidden = false; return; }
     var b = e.target.closest('[data-yt]');
     if (!b) return;
     var f = document.createElement('iframe');
