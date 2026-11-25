@@ -21,7 +21,9 @@ Page paths stay as they are.
 
 ## Editing a page
 
-Each page is one Markdown file at the repo root, such as `faq.md` or `historia.md`. The front matter sets the title, the banner image and the promo cards at the bottom. Below it is the page text in Markdown, with `{% include %}` tags for the special blocks.
+Each page is one Markdown file in `_pages/`, such as `_pages/faq.md` or `_pages/historia.md`. The front matter sets the URL (`permalink`), the title, the banner image and the promo cards at the bottom. Below it is the page text in Markdown, with `{% include %}` tags for the special blocks.
+
+The folder doesn't appear in URLs, so every new page needs its own `permalink`.
 
 Shared parts live in one place each:
 

@@ -15,4 +15,5 @@ defaults:
   - scope: { path: "" }
     values: { layout: page }
 
+include: [_pages]  # pages live in _pages/; each sets its URL with permalink
 exclude: [README.md, docs, .claude, check_site.py]
