@@ -4,7 +4,7 @@ banner: "/assets/images/radio-cb.webp"
 cta: ["plano", "treino"]
 cta_gap: true
 seo_title: "Biblioteca - Plano 3-3-3"
-description: "Biblioteca Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre atualizadas para entender, praticar e implementar este plano de comunicações alternativas.Guia do Plano 3-3-3 - (versão completa - janeiro 2025)Folheto informativo (tríptico para imprimir e dobrar)Folheto informativo A4 (para imprimir ou enviar em…"
+description: "Biblioteca Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre actualizadas para entender, praticar e implementar este plano de comunicações alternativas.Guia do Plano 3-3-3 - (versão completa - Janeiro 2025)Folheto informativo (tríptico para imprimir e dobrar)Folheto informativo A4 (para imprimir ou enviar em…"
 image: "/assets/images/cropped-favico-1.png"
 permalink: "/biblioteca/"
 ---
@@ -13,9 +13,9 @@ permalink: "/biblioteca/"
 
 <div class="pt-8" markdown="1">
 
-Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre atualizadas para entender, praticar e implementar este plano de comunicações alternativas.
+Bem-vindo à Biblioteca do Plano 3-3-3, o espaço onde encontrará os documentos e materiais importantes sempre actualizadas para entender, praticar e implementar este plano de comunicações alternativas.
 
-- [**Guia do Plano 3-3-3**]({{ '/assets/files/Plano_3-3-3_Manual_Completo.pdf' | relative_url }}) – (versão completa – janeiro 2025)
+- [**Guia do Plano 3-3-3**]({{ '/assets/files/Plano_3-3-3_Manual_Completo.pdf' | relative_url }}) – (versão completa – Janeiro 2025)
 - [**Folheto informativo**]({{ '/assets/files/Plano_333_Panfleto_Triptico.pdf' | relative_url }}) (tríptico para imprimir e dobrar)
 - [**Folheto informativo** **A4**]({{ '/assets/files/Plano_333_A4.pdf' | relative_url }}) (para imprimir ou enviar em PDF)
 - **Cartaz – Treino Semanal** (imagem para partilhar nas redes sociais) – Brevemente

@@ -8,8 +8,8 @@ image: "/assets/images/para-que-serve-o-plano-333.webp"
 permalink: "/"
 stats:
   - { value: "400+", label: "Participantes" }
-  - { value: "5+", label: "Anos de Existência" }
-  - { value: "15+", label: "Cidades com Atividade" }
+  - { value: "7", label: "Anos de Existência" }
+  - { value: "15+", label: "Cidades com Actividade" }
   - { value: "11+", label: "Número de Coordenadores" }
 ---
 
@@ -44,16 +44,14 @@ O **plano 3-3-3** é uma rotina de comunicações alternativas que funciona na B
 
 <div class="col bg-yellow" style="--w: 55%; --pad: 50px 50px 50px 50px; --pad-sm: 25px 25px 50px" markdown="1">
 
-#### Dia 19 de Setembro de 2026
+#### Nova ferramenta
 {: .c-black .thin}
 
-## 7º aniversário - Plano 3-3-3
+## Registo do Plano 3-3-3
 
-{% include youtube.html id="qcSWIXAAKHo" %}
+Crie uma conta em **log.plano333.pt**, registe as suas estações e acompanhe o treino semanal.
 
-E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas** para os participantes neste dia especial: 19 de Setembro.
-
-{% include button.html text="Saiba como participar" url="/plano-3-3-3/" style="navy-white" %}
+{% include button.html text="Aceder ao registo" url="https://log.plano333.pt" style="navy-white" external=true %}
 
 </div>
 
@@ -75,7 +73,7 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 <div class="col" markdown="1">
 
-{% capture text %}Esteja preparado para situações críticas com o Plano 3-3-3, uma rede de comunicações alternativas, organizada, e que pode salvar vidas. <br/>Utilizando a Banda do Cidadão e o PMR 446, o plano cria uma rede de estações na sua região, permitindo contactar ou ser contactado em emergências para pedir ajuda ou simplesmente manter o contacto.{% endcapture %}
+{% capture text %}Esteja preparado para situações críticas com o Plano 3-3-3, uma rede de comunicações alternativas, organizada, e que pode salvar vidas. <br/>Utilizando a Banda do Cidadão, o PMR 446 e as redes mesh, o plano cria uma rede de estações na sua região, permitindo contactar ou ser contactado em emergências para pedir ajuda ou simplesmente manter o contacto.{% endcapture %}
 {% include image-box.html src="/assets/images/para-que-serve-o-plano-333.webp" width=1100 height=629 title="Para Que Serve" text=text %}
 
 {% include button.html text="Saiba mais" url="/plano-3-3-3/" style="primary" %}
@@ -84,10 +82,10 @@ E está a chegar mais um aniversário. Novamente haverá entrega de **diplomas**
 
 <div class="col" markdown="1">
 
-{% capture text %}A cada sábado, às 21:00, operadores de rádio e pessoas como você, em todo o país reúnem-se para treinar e fortalecer a rede do Plano 3-3-3. Estes treinos ajudam a melhorar a sua comunicação, testar o equipamento e criar uma rede confiável para emergências. Não fique de fora! Faça parte desta comunidade e aprenda a comunicar com eficiência.{% endcapture %}
+{% capture text %}Todos os sábados, às 21:00, operadores de rádio e utilizadores de Meshtastic e MeshCore em todo o país reúnem-se para treinar e fortalecer a rede do Plano 3-3-3. Estes treinos ajudam a melhorar a sua comunicação, testar o equipamento e criar uma rede fiável para emergências. Não fique de fora! Faça parte desta comunidade e aprenda a comunicar com eficiência.{% endcapture %}
 {% include image-box.html src="/assets/images/pessoas-com-radios.webp" width=1280 height=731 title="Como Participar no Treino" text=text %}
 
-{% include button.html text="DEscubra como" url="/treino-semanal/" style="primary" %}
+{% include button.html text="Descubra como" url="/treino-semanal/" style="primary" %}
 
 </div>
 

@@ -2,14 +2,14 @@
 title: "Política de Privacidade"
 banner: "/assets/images/radio-cb.webp"
 seo_title: "Política de Privacidade - Plano 3-3-3"
-description: "Política de Privacidade Esta Política de Privacidade explica como os seus dados pessoais são recolhidos, utilizados, armazenados e protegidos ao visitar e interagir com o nosso site. Estamos comprometidos em cumprir o Regulamento Geral sobre a Proteção de Dados (RGPD) e as leis aplicáveis em Portugal.1. Recolha de Dados PessoaisPodemos…"
+description: "Política de Privacidade Esta Política de Privacidade explica como os seus dados pessoais são recolhidos, utilizados, armazenados e protegidos ao visitar e interagir com o nosso site. Estamos comprometidos em cumprir o Regulamento Geral sobre a Protecção de Dados (RGPD) e as leis aplicáveis em Portugal.1. Recolha de Dados PessoaisPodemos…"
 image: "/assets/images/cropped-favico-1.png"
 permalink: "/politica-de-privacidade/"
 ---
 
 <section class="section pt-8 pb-11" markdown="1">
 
-Esta Política de Privacidade explica como os seus dados pessoais são recolhidos, utilizados, armazenados e protegidos ao visitar e interagir com o nosso site. Estamos comprometidos em cumprir o Regulamento Geral sobre a Proteção de Dados (RGPD) e as leis aplicáveis em Portugal.
+Esta Política de Privacidade explica como os seus dados pessoais são recolhidos, utilizados, armazenados e protegidos ao visitar e interagir com o nosso site. Estamos comprometidos em cumprir o Regulamento Geral sobre a Protecção de Dados (RGPD) e as leis aplicáveis em Portugal.
 
 ## 1. Recolha de Dados Pessoais
 
@@ -30,15 +30,15 @@ Os dados recolhidos são utilizados para:
 
 ## 3. Partilha de Dados
 
-Os seus dados pessoais não serão partilhados com terceiros, exceto quando necessário para cumprir requisitos legais ou com o seu consentimento explícito.
+Os seus dados pessoais não serão partilhados com terceiros, excepto quando necessário para cumprir requisitos legais ou com o seu consentimento explícito.
 
 ## 4. Direitos do Utilizador
 
 De acordo com o RGPD, tem os seguintes direitos sobre os seus dados:
 
 - **Acesso:** Solicitar uma cópia dos dados que armazenamos sobre si.
-- **Retificação:** Corrigir informações incorretas ou incompletas.
-- **Eliminação:** Pedir que os seus dados sejam apagados (exceto quando a lei exige a sua retenção).
+- **Rectificação:** Corrigir informações incorrectas ou incompletas.
+- **Eliminação:** Pedir que os seus dados sejam apagados (excepto quando a lei exige a sua retenção).
 - **Portabilidade:** Solicitar que os seus dados sejam transferidos para outro controlador, se aplicável.
 - **Oposição:** Recusar o uso dos seus dados para determinadas finalidades.
 
@@ -60,7 +60,7 @@ Ao navegar no nosso site, será exibido um aviso de cookies com a opção de ace
 
 ## 7. Alterações a Esta Política
 
-Reservamo-nos o direito de atualizar esta Política de Privacidade periodicamente. A data da última atualização será indicada no final deste documento. Recomendamos que reveja esta página regularmente para se manter informado.
+Reservamo-nos o direito de actualizar esta Política de Privacidade periodicamente. A data da última actualização será indicada no final deste documento. Recomendamos que reveja esta página regularmente para se manter informado.
 
 ## 8. Contactos
 
@@ -68,6 +68,6 @@ Caso tenha dúvidas ou questões sobre a nossa Política de Privacidade, entre e
 
 - **Email:** plano333portugal@gmail.com
 
-**Última atualização:** 2024-12-15
+**Última actualização:** 2024-12-15
 
 </section>

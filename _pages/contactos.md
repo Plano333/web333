@@ -11,7 +11,7 @@ permalink: "/contactos/"
 
 Tem dúvidas ou quer saber mais sobre o Plano 3-3-3? Estamos aqui para ajudar! Use o nosso e-mail e entraremos em contacto consigo o mais breve possível.
 
-Seja para esclarecimentos, sugestões ou para se juntar ao nosso projeto, a sua mensagem é muito bem-vinda.
+Seja para esclarecimentos, sugestões ou para se juntar ao nosso projecto, a sua mensagem é muito bem-vinda.
 
 </section>
 

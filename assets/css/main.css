@@ -64,8 +64,8 @@ h4.thin { font-weight: 400; }
 .section { padding-left: max(20px, calc((100% - 1200px) / 2)); padding-right: max(20px, calc((100% - 1200px) / 2)); }
 .section > :last-child, .col > :last-child, .row > .col > :last-child, [class*="bg-"] > :last-child, .section > [class^="pt-"] > :last-child { margin-bottom: 0; }
 /* Elementor-style 20px gap around block components, in sections and columns */
-:is(.section, .col) > * + :is(.img, .icon-box, .image-box, .btn, .buttons, .accordion, .video-wrap, .map, .divider, .stats, .social, .row, .push-right),
-:is(.section, .col) > :is(.img, .icon-box, .image-box, .video-wrap, .map, .divider, .stats, .accordion, .social) + * { margin-top: var(--gap); }
+:is(.section, .col) > * + :is(.img, .icon-box, .image-box, .btn, .buttons, .accordion, .video-wrap, .divider, .stats, .social, .row, .push-right),
+:is(.section, .col) > :is(.img, .icon-box, .image-box, .video-wrap, .divider, .stats, .accordion, .social) + * { margin-top: var(--gap); }
 .row[style*="--gap: 50px"] > .col, .row[style*="--gap: 30px"] > .col { --gap: 20px; }  /* a wide row gap must not widen spacing inside its columns */
 .section > .row[style*="--gap: 50px"] { margin: 0; }  /* Biblioteca card grid: no bleed, cards sit inside the section padding */
 .row { display: flex; gap: var(--gap); align-items: stretch; }
@@ -229,7 +229,6 @@ p > .btn { margin-right: 0; }
 .bg-dark .row:has(> .col > .video-wrap) { margin: 0; }
 .video::after { content: ""; position: absolute; inset: 50% auto auto 50%; width: 68px; height: 48px; translate: -50% -50%; border-radius: 12px; background: #f00 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M8 5v14l11-7z'/%3E%3C/svg%3E") center / 28px no-repeat; }
 iframe.video::after { display: none; }
-.map { width: 100%; height: 1400px; border: 0; display: block; }
 
 /* promo card pair */
 .cta { display: flex; }

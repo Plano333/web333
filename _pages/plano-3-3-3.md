@@ -1,7 +1,7 @@
 ---
 title: "Plano 3-3-3"
 banner: "/assets/images/radio-cb.webp"
-cta: ["treino-plano", "dicas"]
+cta: ["treino", "dicas"]
 seo_title: "Conheça o Plano 3-3-3"
 description: "Saiba como funciona o Plano 3-3-3, e conheça as suas características e vantagens para entender como pode ser útil numa situação de catástrofe."
 image: "/assets/images/Relogio-3-3-3-PS-300x284.png"
@@ -18,7 +18,9 @@ permalink: "/plano-3-3-3/"
 
 <div class="justify" markdown="1">
 
-O **Plano 3-3-3** é uma rotina de comunicações alternativas que funciona na **Banda do Cidadão (CB)** e no **PMR 446**. O objetivo é criar uma rede de estações na sua zona, permitindo que, numa emergência, possa contactar alguém ou ser contactado para pedir ajuda ou manter o contacto.
+O **Plano 3-3-3** é uma rotina de comunicações alternativas que funciona na **Banda do Cidadão (CB)**, no **PMR 446** e nas redes mesh **Meshtastic** e **MeshCore**. O objectivo é criar uma rede de estações na sua zona, permitindo que, numa emergência, possa contactar alguém ou ser contactado para pedir ajuda ou manter o contacto.
+
+O treino semanal nas redes mesh tem regras próprias. Veja o [Mesh 3-3-3]({{ '/mesh-3-3-3/' | relative_url }}).
 
 </div>
 
@@ -26,7 +28,7 @@ O **Plano 3-3-3** é uma rotina de comunicações alternativas que funciona na *
 
 <div class="col" style="--w: 33%" markdown="1">
 
-{% include image.html src="/assets/images/Relogio-3-3-3-PS-300x284.png" alt="" width=300 height=284 %}
+{% include image.html src="/assets/images/Relogio-3-3-3-PS-300x284.png" alt="Relógio do Plano 3-3-3: rádio CB ou PMR 446, canal 3, a cada 3 horas, durante 3 minutos" width=300 height=284 %}
 
 </div>
 
@@ -74,7 +76,7 @@ Todas as semanas, aos sábados, às 21:00. É um treino para que cada estação 
 
 <div class="justify" markdown="1">
 
-Pratique este treino na sua área geográfica a fim de, numa eventual emergência, já saber como atuar, a que estações consegue chegar e quem o conseguirá escutar. Treine também com a sua família e amigos.
+Pratique este treino na sua área geográfica a fim de, numa eventual emergência, já saber como actuar, a que estações consegue chegar e quem o conseguirá escutar. Treine também com a sua família e amigos.
 
 </div>
 
@@ -94,7 +96,7 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 <section class="section pt-6" markdown="1">
 
-## Plano 3-3-3 em ação
+## Plano 3-3-3 em acção
 
 <div class="stack" style="--pad: 10px 10px 10px 10px; --pad-sm: 10px" markdown="1">
 
@@ -104,12 +106,12 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 - **A cada 3 horas**(às 00, 03, 06, 09, 12, 15, 18, 21 horas) entre três minutos antes e depois da hora, chame e **escute no canal 3 do CB ou PMR 446**.
 - **Procure contactar os seus familiares** ou grupo de amigos.
-- **Escute atentamente qual a emergência**e veja como pode ajudar**.**
+- **Escute atentamente qual a emergência** e veja como pode ajudar.
 - **Se necessário aponte a morada e chame o 112**.
 - **Caso se tratar dum alerta nacional ou local, faça uma chamada geral à rede** dizendo, por exemplo:  
   *“Alerta geral, aqui Bravo Sierra. Caiu o viaduto das Amoreiras em Lisboa. Não se dirija para o local. Mantenha-se longe e à escuta.”  
   ou  
-  “Alerta Local em Tomar, estrada M351 entre Carril e Serra, intransitável devido a incêndio. Rota alternativa pela M351-1 direção à Junceira ou M530 para Chão das Maias.”*
+  “Alerta Local em Tomar, estrada M351 entre Carril e Serra, intransitável devido a incêndio. Rota alternativa pela M351-1 direcção à Junceira ou M530 para Chão das Maias.”*
 - **Siga as instruções que escutar**, divulgadas por outras estações de confiança. Se possível, confirme-as pelas rádios comerciais e/ou televisão. Não se aproxime de zonas perigosas envolvidas na emergência, colocando-se em perigo ou dificultando o trabalho dos agentes oficiais, bombeiros, ambulâncias, polícia, etc.
 - Se tiver disponibilidade e energia,**fique à escuta mais tempo** e faça chamadas.
 
@@ -121,21 +123,21 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 <div class="col" markdown="1">
 
-{% capture text %}É essencial confirmar um alerta antes de divulgá-lo. Certifique-se de que a informação seja proveniente de uma fonte oficial ou confirmada por outros meios confiáveis. Evite lançar alertas falsos ou incompletos, pois isso pode causar confusão ou pânico.{% endcapture %}
+{% capture text %}É essencial confirmar um alerta antes de divulgá-lo. Certifique-se de que a informação seja proveniente de uma fonte oficial ou confirmada por outros meios fiáveis. Evite lançar alertas falsos ou incompletos, pois isso pode causar confusão ou pânico.{% endcapture %}
 {% include icon-box.html icon="check" title="Confirmação de Alertas" color="yellow" icon_color="white" style="filled" text=text %}
 
 </div>
 
 <div class="col" markdown="1">
 
-{% capture text %}Ao divulgar um alerta, utilize instruções simples e precisas. Garanta que a mensagem seja fácil de entender para que todos saibam como agir corretamente. Peça para que a mensagem seja compartilhada com outros.{% endcapture %}
+{% capture text %}Ao divulgar um alerta, utilize instruções simples e precisas. Garanta que a mensagem seja fácil de entender para que todos saibam como agir correctamente. Peça para que a mensagem seja partilhada com outros.{% endcapture %}
 {% include icon-box.html icon="edit" title="Instruções Claras" color="primary" style="outline" text=text %}
 
 </div>
 
 <div class="col" markdown="1">
 
-{% capture text %}Em casos de emergência local, é crucial informar a zona exata abrangida pelo alerta. Especifique se o alerta é para uma área específica ou se tem um caráter nacional ou regional.{% endcapture %}
+{% capture text %}Em casos de emergência local, é crucial informar a zona exacta abrangida pelo alerta. Especifique se o alerta é para uma área específica ou se tem um carácter nacional ou regional.{% endcapture %}
 {% include icon-box.html icon="map-marker-alt" title="Delimitação da Zona" color="yellow" icon_color="white" style="filled" text=text %}
 
 </div>
@@ -149,7 +151,7 @@ Mesmo que não necessite de chamar, anuncie-se no canal para saber onde chega ou
 
 <div class="justify c-primary" markdown="1">
 
-**Verifique periodicamente se tem as baterias carregadas.** Tenha um sistema de alimentação alternativa, bateria, painel solar, iluminação, etc. É possível que o abastecimento de energia elétrica possa falhar.
+**Verifique periodicamente se tem as baterias carregadas.** Tenha um sistema de alimentação alternativa, bateria, painel solar, iluminação, etc. É possível que o abastecimento de energia eléctrica possa falhar.
 
 </div>
 
@@ -193,7 +195,7 @@ O conhecimento do plano 3-3-3 deve ser geral, abrangendo todos os membros da fam
 
 <div class="justify" markdown="1">
 
-Para acompanhar as comunicações fora do seu raio de alcance ou para escutar melhor estações com quem possa comunicar utilize  **SDR**s. É também uma forma de evitar interferências locais na receção, emitindo da sua estação mas recebendo pelo SDR.
+Para acompanhar as comunicações fora do seu raio de alcance ou para escutar melhor estações com quem possa comunicar utilize  **SDR**s. É também uma forma de evitar interferências locais na recepção, emitindo da sua estação mas recebendo pelo SDR.
 
 </div>
 
@@ -211,7 +213,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 <div class="justify" markdown="1">
 
-É importante saber a localização das estações, motivo pelo qual deve também informar a sua. A localização deve ser sempre aproximada, indicando apenas a cidade ou localidade e nunca moradas exatas. Apenas revele a sua localização exata se tal for estritamente necessário, por exemplo, em caso de necessitar de socorro.
+É importante saber a localização das estações, motivo pelo qual deve também informar a sua. A localização deve ser sempre aproximada, indicando apenas a cidade ou localidade e nunca moradas exactas. Apenas revele a sua localização exacta se tal for estritamente necessário, por exemplo, em caso de necessitar de socorro.
 
 </div>
 
@@ -219,7 +221,7 @@ Para acompanhar as comunicações fora do seu raio de alcance ou para escutar me
 
 <div class="col" style="--w: 2%; --w-md: 40%" markdown="1">
 
-{% include image.html src="/assets/images/livro-plano-3-3-3-300x171.webp" alt="" width=300 height=171 %}
+{% include image.html src="/assets/images/livro-plano-3-3-3-300x171.webp" alt="Pessoa com um rádio portátil a tomar notas num caderno do Plano 3-3-3" width=300 height=171 %}
 
 </div>
 

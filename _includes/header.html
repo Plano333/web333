@@ -6,7 +6,7 @@
     <nav class="nav" aria-label="Menu principal">
       <ul>
         {%- for item in site.data.site.menu %}
-        <li><a href="{% include url.html u=item.url %}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        <li><a href="{% include url.html u=item.url %}"{% if page.url == item.url %} aria-current="page"{% endif %}{% if item.url contains "://" %} target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a></li>
         {%- endfor %}
       </ul>
     </nav>

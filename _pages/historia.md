@@ -4,7 +4,7 @@ banner: "/assets/images/radio-cb.webp"
 cta: ["plano", "treino"]
 cta_gap: true
 seo_title: "História - Plano 3-3-3"
-description: "Conheça a evolução do Plano 3-3-3 desde o momento em que foi adotado em Portugal, por pessoas interessadas em comunicações alternativas."
+description: "Conheça a evolução do Plano 3-3-3 desde o momento em que foi adoptado em Portugal, por pessoas interessadas em comunicações alternativas."
 image: "/assets/images/logo-antigo-300x300.webp"
 permalink: "/historia/"
 ---
@@ -24,7 +24,7 @@ Em 2019 não havia nenhum plano de comunicações no CB dedicado a situações d
 Informação original em:
 
 - [radiofreeq.wordpress.com](https://radiofreeq.wordpress.com/2013/07/15/3-3-3-radio-plan-for-shtf-communications/) 3-3-3 Radio Plan
-- [amrrom.com](https://amrron.com/2019/07/01/stay-informed-with-the-amrron-alerts-mobile-app-general-release-announcement/) Channel 3 Project
+- [amrron.com](https://amrron.com/2019/07/01/stay-informed-with-the-amrron-alerts-mobile-app-general-release-announcement/) Channel 3 Project
 
 Resolvi portanto implementá-lo em Portugal mantendo-me fiel à sua ideia original mas acrescentando algo que o original não tinha: **O treino semanal**.
 
@@ -64,7 +64,7 @@ Miguel Santos – CB: **Mike 05**, Radioamador: **CT1DYT**
 
 <div class="justify" markdown="1">
 
-É apresentado o Plano 3-3-3, o Treino semanal e o Boletim digital dando-se início em Portugal um projeto de comunicações alternativas para bem da comunidade rádio.
+É apresentado o Plano 3-3-3, o Treino semanal e o Boletim digital dando-se início em Portugal um projecto de comunicações alternativas para bem da comunidade rádio.
 
 </div>
 
@@ -96,17 +96,17 @@ Est.CB : Harley
 
 <div class="justify" markdown="1">
 
-Foi há mais de 5 anos que iniciou o treino semanal do plano 3-3-3, nessa altura em FM e que mais tarde passou a AM e USB. O anúncio pode ser visto no grupo West preppers ([West preppers (Portugal) \| Facebook](https://www.facebook.com/groups/262070927311791/search/?q=plano%203-3-3){:target="_blank" rel="noopener"}).
+Em 2019 iniciou-se o treino semanal do plano 3-3-3, nessa altura em FM e que mais tarde passou a AM e USB. O anúncio pode ser visto no grupo West preppers ([West preppers (Portugal) \| Facebook](https://www.facebook.com/groups/262070927311791/search/?q=plano%203-3-3){:target="_blank" rel="noopener"}).
 
 *“Dentro de poucos minutos, às 21 horas de hoje sábado dia 14 de Setembro vai decorrer no canal 3 do CB, em FM, o primeiro teste de comunicações do plano 3-3-3. Participem e ajudem a expandir esta rede de comunicações de emergência…”*texto partilhado do site da associação [Futuragora (Radio telecomunicações](https://futuragora.org/projetos/radio/)) pois naquela altura ainda nem se imaginava o [Macanudos.org](https://www.macanudos.org).
 
-Como tudo que começa, ao princípio é difícil. Eu (Mike 05) e a Ana (Ananás) todos os sábados às 21:00 marcámos presença no canal 3 do CB e do PMR 446, chamando e divulgando o projeto. O Rolando (27) naquela altura não operava no CB, tendo a seu cargo a informática e o Boletim Informativo Digital.
+Como tudo que começa, ao princípio é difícil. Eu (Mike 05) e a Ana (Ananás) todos os sábados às 21:00 marcámos presença no canal 3 do CB e do PMR 446, chamando e divulgando o projecto. O Rolando (27) naquela altura não operava no CB, tendo a seu cargo a informática e o Boletim Informativo Digital.
 
 Muito nos ajudaram os grupos Prepper bem como outros de rádio comunicações.
 
 Nas primeiras semanas poucas ou nenhuma estações conseguimos contactar. Gradualmente foram entrando mais estações e tornou-se um sucesso até hoje. Se perguntarem a alguém do CB, quase de certeza que conhece o Plano 3-3-3 mesmo que não tenha participado nele. Hoje sabemos que em caso de emergência há um canal e um plano horário que vai ajudar a que mais facilmente consigam contacto rádio.
 
-O objetivo foi cumprido cabendo a cada um participar e desenvolver o Plano 3-3-3, na sua região, tanto em CB como em PMR 446.
+O objectivo foi cumprido cabendo a cada um participar e desenvolver o Plano 3-3-3, na sua região, tanto em CB como em PMR 446.
 
 </div>
 
@@ -164,7 +164,7 @@ O vídeo está disponível no  canal do YouTube de [Mike 05 o Macanudp Prepper](
 
 A revista Prontidão e Sobrevivência lança o seu primeiro número onde juntamente com diversas temáticas apresenta o Plano 3-3-3 e uma entrevista onde explica o seu propósito e funcionamento.
 
-A escolha do Plano 3-3-3 como método de comunicação alternativo foi para nós (Ana, Miguel e Rolando, do Macanudos) mais uma certeza de que o tempo investido neste projeto foi uma boa aposta e que iria prevalecer ao longo do tempo.
+A escolha do Plano 3-3-3 como método de comunicação alternativo foi para nós (Ana, Miguel e Rolando, do Macanudos) mais uma certeza de que o tempo investido neste projecto foi uma boa aposta e que iria prevalecer ao longo do tempo.
 
 *A revista prontidão & Sobrevivência, edição apenas em papel e que pretende ser um guia sobre as boas práticas e opções para sobrevivencialistas, publicou no passado dia 12 de Março, o guia do treino do plano 3-3-3 bem como todas as informações complementares para a sua utilização em caso de emergência.”*
 
@@ -194,11 +194,11 @@ A escolha do Plano 3-3-3 como método de comunicação alternativo foi para nós
 
 <div class="justify" markdown="1">
 
-5 anos depois, mais de 400 estações contactadas, são muitas as pessoas que sabem da existência do Plano 3-3-3 e do seu treino semanal. São muitos ficheiros espalhados pelas redes sociais e até presentes em arquivos individuais ou de grupos de sobrevivencialistas. Houve a necessidade de concentrar tudo num único site vocacionado apenas para este projeto. Um ponto de encontro para todos, desde obter a simples informação do que é o Plano 3-3-3 até à participação ativa no Treino Semanal.
+5 anos depois, mais de 400 estações contactadas, são muitas as pessoas que sabem da existência do Plano 3-3-3 e do seu treino semanal. São muitos ficheiros espalhados pelas redes sociais e até presentes em arquivos individuais ou de grupos de sobrevivencialistas. Houve a necessidade de concentrar tudo num único site vocacionado apenas para este projecto. Um ponto de encontro para todos, desde obter a simples informação do que é o Plano 3-3-3 até à participação activa no Treino Semanal.
 
 Com este site vem também um novo grafismo, um novo logo e uma dinâmica de comunicação há muito desejada por muitos.
 
-As sucessivas atualizações do treino semanal e dos documentos que o explicam podem agora ser consultados aqui, garantindo que são os mais atuais e cujos links podem ser partilhados sem correr o risco de desaparecerem ou tornarem-se obsoletos.
+As sucessivas actualizações do treino semanal e dos documentos que o explicam podem agora ser consultados aqui, garantindo que são os mais actuais e cujos links podem ser partilhados sem correr o risco de desaparecerem ou tornarem-se obsoletos.
 
 Qualquer assunto relacionado com o **Plano 3-3-3** ou com o seu **Treino Semanal** deve ser dirigido preferencialmente aos contactos deste site.
 

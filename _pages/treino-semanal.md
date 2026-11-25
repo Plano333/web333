@@ -1,9 +1,9 @@
 ---
 title: "Treino semanal"
 banner: "/assets/images/radio-cb.webp"
-cta: ["plano-ligado", "dicas-lower"]
+cta: ["plano", "dicas"]
 seo_title: "Treino Semanal - Plano 3-3-3"
-description: "O treino semanal tem o objetivo de facilitar o contacto entre todas as estações participantes, com estrutura organizada para orientação das restantes estações."
+description: "O treino semanal tem o objectivo de facilitar o contacto entre todas as estações participantes, com estrutura organizada para orientação das restantes estações."
 image: "/assets/images/relogio-treino-300.webp"
 permalink: "/treino-semanal/"
 ---
@@ -18,11 +18,11 @@ permalink: "/treino-semanal/"
 
 <div class="relaxed justify" markdown="1">
 
-O treino semanal tem o objetivo de facilitar o contacto entre todas as estações participantes. Conta com uma estrutura organizada por coordenadores treinados para orientação das restantes estações. Na sua região pode não haver coordenador e assim cada estação deverá fazer os contactos de forma independente.
+O treino semanal tem o objectivo de facilitar o contacto entre todas as estações participantes. Conta com uma estrutura organizada por coordenadores treinados para orientação das restantes estações. Na sua região pode não haver coordenador e assim cada estação deverá fazer os contactos de forma independente.
 
-<img class="alignleft" src="{{ '/assets/images/relogio-treino-300.webp' | relative_url }}" alt="" width="300" height="300">
+<img class="alignleft" src="{{ '/assets/images/relogio-treino-300.webp' | relative_url }}" alt="Horário do treino de sábado: 21:00 CB em AM, 21:10 CB em USB, 21:45 PMR 446" width="300" height="300">
 
-**Todos os sábados, às 20:57** ligue o CB no canal 3 em AM. Verifique se a sua estação está a funcionar corretamente e prepare-se para registar os contactos.
+**Todos os sábados, às 20:57** ligue o CB no canal 3 em AM. Verifique se a sua estação está a funcionar correctamente e prepare-se para registar os contactos.
 
 - Às 21:00 em ponto inicia-se o treino semanal do Plano 3-3-3.
 - **Não fique só à escuta**. Chame. Se não chamar, ninguém saberá que está no rádio.
@@ -40,7 +40,7 @@ O treino semanal tem o objetivo de facilitar o contacto entre todas as estaçõe
 - **Às 21:45, termina o treino em CB**. O coordenador  agradece a participação das estações, anuncia o início do treino em PMR 446 e mais alguma mensagem final se houver. O canal 3 do CB fica livre para outras comunicações.
 - Das 21:45 até às 22:00 é o treino em PMR 446. A estações que desejem participar devem deslocar-se para um local de melhor cobertura e iniciar as chamadas. O treino em PMR 446 não tem coordenação. Chame as vezes que entender até conseguir contacto.
 
-Poderá acompanhar o treino online via [Telegram](https://t.me/Radio_SolucoesOffgrid/56149). Serve apenas para reportar as estações que são contactadas bem como outras informações escritas. O treino apenas é feito via rádio CB e PMR 446.
+Poderá acompanhar o treino online via [Telegram](https://t.me/Radio_SolucoesOffgrid/56149). Serve apenas para reportar as estações que são contactadas bem como outras informações escritas. Em rádio, o treino é feito em CB e PMR 446. Em simultâneo decorre o treino nas redes Meshtastic e MeshCore, explicado em [Mesh 3-3-3]({{ '/mesh-3-3-3/' | relative_url }}).
 {: style="margin-bottom: 0"}
 
 No caso de catástrofe generalizada ou emergência, as comunicações do Plano 3-3-3 desenvolvem-se igualmente no canal 3 mas possivelmente sem coordenação, estando cada estação responsável pelas suas comunicações e do seu grupo. O treino visa dotar as estações das competências necessárias nas rádio comunicações e a criarem o seu grupo de contacto.
@@ -110,7 +110,7 @@ Exemplo: “Chamada geral chamada geral treino semanal do plano 3-3-3, aqui Pand
 <summary>Desfrute do treino do Plano 3-3-3</summary>
 
 É normal irem sendo feitas novas chamadas, já usando o seu nome de estação, ao longo do resto do treino, para o ajudar a identificar que outras estações consegue contactar (escutar e ser escutado).  
-Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo esta nova forma de comunicar, e passar a sentir-se à vontade dentro da sua rede mais próxima.
+Ninguém sabe fazer tudo à primeira, e o objectivo do treino é ir aprendendo esta nova forma de comunicar, e passar a sentir-se à vontade dentro da sua rede mais próxima.
 
 </details>
 
@@ -147,7 +147,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 <li markdown="span">Cessar de imediato a comunicação caso ouça o coordenador ou outra estação pedir QRX.</li>
 <li markdown="span">Escutar atentamente antes de fazer qualquer chamada evitando sobremodular estações mais distantes.</li>
 <li markdown="span">Esperar sempre pelo fim de um contacto entre a estação e a sua interlocutora antes de iniciar uma nova chamada ou pedir oportunidade (não falar por cima).</li>
-<li markdown="span">Dizer sempre o respetivo nome de estação e de preferência também a localização.</li>
+<li markdown="span">Dizer sempre o respectivo nome de estação e de preferência também a localização.</li>
 <li markdown="span">Não emitir quando o coordenador solicitar outro nome de estação ou outra área geográfica que não a sua.</li>
 <li markdown="span">É expressamente proibida a utilização de palavrões ou linguagem ofensiva seja em que circunstância for</li>
 </ul>
@@ -191,7 +191,7 @@ Ninguém sabe fazer tudo à primeira, e o objetivo do treino é ir aprendendo es
 
 <div class="justify" markdown="1">
 
-Os **Coordenadores** no Plano 3-3-3 desempenham um papel fundamental na organização e condução das comunicações, especialmente durante os treinos semanais e em situações de emergência. São responsáveis por iniciar as chamadas gerais, gerir os contactos entre estações, e assegurar que a comunicação decorre de forma estruturada e eficiente. A sua experiência e localização estratégica permitem que atuem como pontos centrais na rede, ajudando a contactar estações que de outra forma não conseguiriam comunicar diretamente.
+Os **Coordenadores** no Plano 3-3-3 desempenham um papel fundamental na organização e condução das comunicações, especialmente durante os treinos semanais e em situações de emergência. São responsáveis por iniciar as chamadas gerais, gerir os contactos entre estações, e assegurar que a comunicação decorre de forma estruturada e eficiente. A sua experiência e localização estratégica permitem que actuem como pontos centrais na rede, ajudando a contactar estações que de outra forma não conseguiriam comunicar directamente.
 
 </div>
 
@@ -230,13 +230,13 @@ Se após chamada não obtiver resposta do coordenador nos primeiros 3 minutos, q
 
 <div class="justify" markdown="1">
 
-A ética dos coordenadores é um conjunto de normas orientadoras para as estações que pretendam assumir a coordenação. A disciplina e o compromisso no cumprimento destas normas são fatores fundamentais para o sucesso do treino.
+A ética dos coordenadores é um conjunto de normas orientadoras para as estações que pretendam assumir a coordenação. A disciplina e o compromisso no cumprimento destas normas são factores fundamentais para o sucesso do treino.
 
 A estação coordenadora inicia a chamada para *Check in*de contactos.
 
-Cada contacto é confirmado mediante nome de estação e local. Opcionalmente o nome do operador e sinal de receção.
+Cada contacto é confirmado mediante nome de estação e local. Opcionalmente o nome do operador e sinal de recepção.
 
-A cada contacto novo, deve interrogar as restantes estações, ou pelo menos as que achar interessante**,** se estas escutaram a nova estação. De igual forma interrogar a nova estação se está a receber as que vão reportando. A comunicação faz-se preferencialmente através do coordenador, podendo as estações comunicar  diretamente se lhes for solicitado.
+A cada contacto novo, deve interrogar as restantes estações, ou pelo menos as que achar interessante**,** se estas escutaram a nova estação. De igual forma interrogar a nova estação se está a receber as que vão reportando. A comunicação faz-se preferencialmente através do coordenador, podendo as estações comunicar  directamente se lhes for solicitado.
 
 Regularmente, e quando houver intervalo sem resposta a chamadas, o coordenador deve passar a palavra a outra estação presente pedindo-lhe que faça chamada geral e dando-lhe a coordenação temporariamente. Este coordenador fará chamada geral cumprindo as regras do treino do Plano 3-3-3 informando as estações que está a contactar. Não havendo mais novas estações a responder ao coordenador temporário, a coordenação volta para o coordenador inicial.
 

@@ -33,7 +33,6 @@ A Google recebe estes dados e pode tratá-los fora da União Europeia. Consulte 
 ## 3. Conteúdo de terceiros
 
 - **Vídeos do YouTube.** O vídeo só é carregado quando clica nele, a partir de youtube-nocookie.com. A partir desse clique, o YouTube pode guardar dados no seu browser.
-- **Mapa.** A página [Mapa]({{ '/mapa/' | relative_url }}) incorpora o Google Maps. Ao abrir essa página, a Google pode colocar cookies próprios.
 - **Tipos de letra.** O site carrega os tipos de letra do Google Fonts. O pedido revela o seu endereço IP à Google, mas não coloca cookies.
 
 ## 4. Alterar a sua escolha

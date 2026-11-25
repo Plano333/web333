@@ -43,7 +43,6 @@ Shared parts live in one place each:
 | `image.html` | Image, optionally linked |
 | `youtube.html` | YouTube video that loads only when clicked |
 | `divider.html` | Line, optionally with a date in the middle |
-| `map.html` | Embedded map |
 | `social.html` | Facebook and YouTube icons |
 | `icon.html` | Inline SVG icon by name |
 | `banner.html`, `cta.html`, `header.html`, `footer.html`, `consent.html` | Used by the layouts |

@@ -17,7 +17,7 @@ Bem-vindo à página de Perguntas Frequentes do Plano 3-3-3.
 
 Aqui encontrará respostas para as dúvidas mais comuns sobre como participar, praticar e utilizar o plano de comunicações de emergência. Este é um espaço pensado para ajudá-lo a compreender melhor o funcionamento do plano e esclarecer qualquer questão que possa surgir.
 
-Se não encontrar a resposta que procura, entre em contacto connosco. Estamos aqui para garantir que está totalmente preparado para colaborar nesta rede de comunicações e atuar de forma eficiente em situações de emergência.
+Se não encontrar a resposta que procura, entre em contacto connosco. Estamos aqui para garantir que está totalmente preparado para colaborar nesta rede de comunicações e actuar de forma eficiente em situações de emergência.
 
 Explore as FAQs e descubra como pode integrar-se e contribuir para o sucesso do Plano 3-3-3.
 
