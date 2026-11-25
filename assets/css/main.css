@@ -207,12 +207,6 @@ p > .btn { margin-right: 0; }
 .arrow-list.tight li { padding: 0 0 4.5px 25px; }
 .arrow-list.tight li::before { width: 20px; height: 20px; top: 3px; }
 
-/* legal pages */
-.legal { font-size: 14px; line-height: 26.4px; }
-.legal > * { max-width: 800px; }
-.legal h2 { font-size: 22px; margin: 15px 0 10px; padding: 0 0 10px; line-height: 28.6px; }
-.legal h2 + * { margin-top: 0; }
-.legal ul { margin-bottom: 15px; }
 
 /* FAQ accordion */
 .accordion { border: 1px solid #d5d8dc; border-bottom: 0; }

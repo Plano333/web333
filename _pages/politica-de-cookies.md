@@ -5,7 +5,7 @@ description: "Política de Cookies do Plano 3-3-3."
 permalink: "/politica-de-cookies/"
 ---
 
-<section class="section pt-8 pb-8 legal" markdown="1">
+<section class="section pt-8 pb-11" markdown="1">
 
 *Última actualização: 25 de Novembro de 2026.*
 
