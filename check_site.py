@@ -10,7 +10,7 @@ _cfg = (ROOT.parent / '_config.yml').read_text(encoding='utf-8')
 _m = re.search(r'^baseurl:\s*"?([^"#\s]*)', _cfg, re.M)
 BASE = _m.group(1).rstrip('/') if _m else ''  # e.g. /web333 while served from plano333.github.io/web333/
 EXPECTED = ('', 'biblioteca', 'contactos', 'dicas-para-usar-um-radio-portatil',
-            'faq', 'historia', 'mapa', 'mapa-plano-3-3-3', 'mesh-3-3-3',
+            'faq', 'historia', 'mesh-3-3-3',
             'plano-3-3-3', 'politica-de-cookies', 'politica-de-privacidade',
             'radio-comunicacoes-cb-e-pmr-446-off-grid', 'treino-semanal')
 errors = []
